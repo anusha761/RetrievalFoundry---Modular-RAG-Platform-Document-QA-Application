@@ -1,0 +1,2254 @@
+{
+  "schema_version": "1.1",
+  "stage": "stage_1_docling_ingestion",
+  "document_id": "Summit_CLO_2026_2_document",
+  "document_name": "Summit_CLO_2026_2_document.pdf",
+  "source_file": "D:\\VECTORDBCREATION\\document_processing_db_creation\\Files\\Summit_CLO_2026_2_document.pdf",
+  "processed_at": "2026-08-25T13:01:27.482371",
+  "docling_document_pages": 8,
+  "markdown_file": "documents/Summit_CLO_2026_2_document.md",
+  "elements": [
+    {
+      "element_index": 0,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/0",
+      "hierarchy_level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.93428039550781,
+            "t": 702.7559204101562,
+            "r": 199.0789794921875,
+            "b": 692.245849609375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "text": "Transaction Overview"
+    },
+    {
+      "element_index": 1,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/1",
+      "hierarchy_level": 2,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.92062759399414,
+            "t": 669.5328369140625,
+            "r": 546.6967163085938,
+            "b": 637.4627075195312,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            351
+          ]
+        }
+      ],
+      "text": "Summit CLO 2026-2 (the Transaction) is a fictional U.S.-dollar collateralized loan obligation transaction sponsored through Summit CLO 2026-2, Ltd. and Summit CLO 2026-2, LLC. The transaction is designed around a broadly diversified portfolio of corporate loan obligations and permits active collateral management during a defined reinvestment period."
+    },
+    {
+      "element_index": 2,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/2",
+      "hierarchy_level": 2,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.83559036254883,
+            "t": 617.5643920898438,
+            "r": 565.2572021484375,
+            "b": 597.5027465820312,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            201
+          ]
+        }
+      ],
+      "text": "This document combines transaction terms, portfolio statistics, eligibility rules, operating mechanics and narrative explanations. All names, dates, amounts, ratings and contractual terms are invented."
+    },
+    {
+      "element_index": 3,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/3",
+      "hierarchy_level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.88146209716797,
+            "t": 572.5991821289062,
+            "r": 162.08795166015625,
+            "b": 561.8368530273438,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "text": "Transaction identity"
+    },
+    {
+      "element_index": 4,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/4",
+      "hierarchy_level": 2,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.83559036254883,
+            "t": 532.724365234375,
+            "r": 556.2118530273438,
+            "b": 512.78271484375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            264
+          ]
+        }
+      ],
+      "text": "The Transaction is intended to acquire a diversified pool of senior secured and other permitted corporate loans. During the reinvestment period, principal proceeds can generally be redeployed into eligible assets rather than immediately used to amortize the notes."
+    },
+    {
+      "element_index": 5,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/5",
+      "hierarchy_level": 2,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.71653366088867,
+            "t": 496.6128845214844,
+            "r": 569.2796020507812,
+            "b": 440.5426940917969,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            659
+          ]
+        }
+      ],
+      "text": "Summit CLO 2026-2 is a static-to-reinvesting broadly syndicated loan CLO issued by Summit CLO 2026-2, Ltd., with Summit CLO 2026-2, LLC as co-issuer. The transaction closed on June 11, 2026, with an effective date of June 30, 2026, and is denominated in U.S. dollars. The target initial collateral balance and initial capitalization are both $520,000,000, comprising rated and subordinated interests. The legal final maturity is June 2041, with a 15-month non-call period and a 36-month reinvestment period from the effective date. Payments are made quarterly on March 20, June 20, September 20 and December 20, subject to applicable business-day conventions."
+    },
+    {
+      "element_index": 6,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/6",
+      "hierarchy_level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.74705505371094,
+            "t": 399.1559143066406,
+            "r": 228.9832763671875,
+            "b": 388.6458740234375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "text": "1. Parties and Governance"
+    },
+    {
+      "element_index": 7,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/7",
+      "hierarchy_level": 2,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.88146209716797,
+            "t": 359.5991516113281,
+            "r": 158.9834442138672,
+            "b": 348.9863586425781,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "text": "Transaction parties"
+    },
+    {
+      "element_index": 8,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/8",
+      "hierarchy_level": 3,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.971649169921875,
+            "t": 330.52435302734375,
+            "r": 549.8384399414062,
+            "b": 286.4626770019531,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            414
+          ]
+        }
+      ],
+      "text": "Granite Peak Capital Management acts as collateral manager and investment manager. It is responsible for sourcing, selecting, monitoring, purchasing, selling and substituting collateral within the investment guidelines. The manager's authority is broad enough to permit active portfolio management but remains subject to eligibility criteria, concentration limitations, collateral-quality tests and coverage tests."
+    },
+    {
+      "element_index": 9,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/9",
+      "hierarchy_level": 3,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.66551208496094,
+            "t": 266.68438720703125,
+            "r": 547.1480102539062,
+            "b": 246.62271118164062,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            232
+          ]
+        }
+      ],
+      "text": "Wellsbridge Trust Company, N.A. acts as trustee. The trustee maintains transaction accounts, applies available proceeds under the applicable waterfalls, distributes payments and performs other administrative and fiduciary functions."
+    },
+    {
+      "element_index": 10,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/10",
+      "hierarchy_level": 2,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 210.0000762939453,
+            "t": 738.9815063476562,
+            "r": 408.19268798828125,
+            "b": 723.9599609375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "text": "SUMMIT CLO 2026-2"
+    },
+    {
+      "element_index": 11,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/11",
+      "hierarchy_level": 3,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.66551208496094,
+            "t": 742.1243896484375,
+            "r": 558.8157958984375,
+            "b": 710.1827392578125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            288
+          ]
+        }
+      ],
+      "text": "Wellsbridge Collateral Services, LLC acts as collateral administrator and supports collateral-level data processing, reconciliation and investor reporting. First Meridian Bank, N.A. acts as calculation agent and paying agent. Crestline Securities LLC acts as placement agent and arranger."
+    },
+    {
+      "element_index": 12,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/12",
+      "hierarchy_level": 3,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.63999938964844,
+            "t": 690.1643676757812,
+            "r": 559.8731079101562,
+            "b": 670.1027221679688,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            194
+          ]
+        }
+      ],
+      "text": "The fictional transaction is intended to receive ratings from S&P Global Ratings and Moody's Ratings. Legal counsel is Hawthorne & Vale LLP . BlueRock Custody Services, Inc. serves as custodian."
+    },
+    {
+      "element_index": 13,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/13",
+      "hierarchy_level": 3,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.674015045166016,
+            "t": 654.1643676757812,
+            "r": 559.446044921875,
+            "b": 597.9827270507812,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            631
+          ]
+        }
+      ],
+      "text": "Granite Peak Capital Management handles portfolio management, trading, reinvestment and monitoring; Wellsbridge Trust Company, N.A. serves as trustee and handles account and payment administration; Wellsbridge Collateral Services, LLC provides collateral administration and reporting support; First Meridian Bank, N.A. acts as calculation and paying agent; BlueRock Custody Services, Inc. provides custody of specified assets and documents; Crestline Securities LLC serves as placement agent and arranger; Hawthorne & Vale LLP provides transaction legal counsel; and S&P Global Ratings and Moody's Ratings serve as rating agencies."
+    },
+    {
+      "element_index": 14,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/14",
+      "hierarchy_level": 1,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.990333557128906,
+            "t": 557.4359130859375,
+            "r": 181.5200958251953,
+            "b": 544.3333740234375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "text": "2. Capital Structure"
+    },
+    {
+      "element_index": 15,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/15",
+      "hierarchy_level": 2,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.83559036254883,
+            "t": 522.8843383789062,
+            "r": 545.610595703125,
+            "b": 502.8226623535156,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            214
+          ]
+        }
+      ],
+      "text": "The capital structure uses five rated classes and a subordinated interest. Class A-1 is the most senior rated class. The Class E Notes provide a junior layer of rated subordination above the subordinated interests."
+    },
+    {
+      "element_index": 16,
+      "element_type": "TableItem",
+      "label": "table",
+      "self_ref": "#/tables/0",
+      "hierarchy_level": 2,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.608150482177734,
+            "t": 492.1235046386719,
+            "r": 382.1151428222656,
+            "b": 359.8408203125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "text": "",
+      "table": true,
+      "table_ref": "#/tables/0"
+    },
+    {
+      "element_index": 17,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/16",
+      "hierarchy_level": 2,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.83559036254883,
+            "t": 341.9120788574219,
+            "r": 537.2300415039062,
+            "b": 321.4762268066406,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            252
+          ]
+        }
+      ],
+      "text": "The rated notes collectively total $468.0 million. The subordinated notes total $52.0 million, producing initial capitalization of $520.0 million. The transaction therefore has a 10.0% subordinated interest component relative to initial capitalization."
+    },
+    {
+      "element_index": 18,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/17",
+      "hierarchy_level": 1,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.172508239746094,
+            "t": 291.9897766113281,
+            "r": 256.5474853515625,
+            "b": 279.0133972167969,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "text": "3. Interest and Principal Terms"
+    },
+    {
+      "element_index": 19,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/18",
+      "hierarchy_level": 2,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.421875,
+            "t": 252.43919372558594,
+            "r": 156.9193878173828,
+            "b": 243.9535369873047,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "text": "Interest mechanics"
+    },
+    {
+      "element_index": 20,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/19",
+      "hierarchy_level": 3,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.83559036254883,
+            "t": 223.3728790283203,
+            "r": 556.1552734375,
+            "b": 191.30270385742188,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            358
+          ]
+        }
+      ],
+      "text": "The rated notes bear interest by reference to three-month term SOFR plus the applicable class spread. Interest accrues over quarterly interest periods and is calculated using an Actual/360 day-count convention. If the reference rate becomes unavailable, the transaction documents provide for a designated replacement benchmark and related fallback mechanics."
+    },
+    {
+      "element_index": 21,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/20",
+      "hierarchy_level": 3,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.92913055419922,
+            "t": 742.1243896484375,
+            "r": 548.4751586914062,
+            "b": 710.1827392578125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            326
+          ]
+        }
+      ],
+      "text": "Interest is generally payable on each scheduled payment date. If available interest proceeds are insufficient and a class is subject to a permitted deferral mechanism, unpaid amounts may be carried forward in accordance with the governing documents. Such deferral does not change the contractual priority of the affected note."
+    },
+    {
+      "element_index": 22,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/21",
+      "hierarchy_level": 2,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.479366302490234,
+            "t": 685.1591796875,
+            "r": 164.06353759765625,
+            "b": 674.5463256835938,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "text": "Principal mechanics"
+    },
+    {
+      "element_index": 23,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/22",
+      "hierarchy_level": 3,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.92913055419922,
+            "t": 656.204345703125,
+            "r": 556.2027587890625,
+            "b": 624.1427001953125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            335
+          ]
+        }
+      ],
+      "text": "During the reinvestment period, principal collections may be reinvested if the proposed investment satisfies the reinvestment criteria and does not cause applicable tests to fail. After the reinvestment period, principal proceeds are generally directed sequentially to the rated notes, beginning with the most senior outstanding class."
+    },
+    {
+      "element_index": 24,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/23",
+      "hierarchy_level": 1,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.906253814697266,
+            "t": 594.8759155273438,
+            "r": 194.0125274658203,
+            "b": 584.3658447265625,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "text": "4. Collateral Portfolio"
+    },
+    {
+      "element_index": 25,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/24",
+      "hierarchy_level": 2,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.421875,
+            "t": 555.2171020507812,
+            "r": 216.21543884277344,
+            "b": 544.46630859375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "text": "Initial portfolio characteristics"
+    },
+    {
+      "element_index": 26,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/25",
+      "hierarchy_level": 3,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.63999938964844,
+            "t": 526.2443237304688,
+            "r": 555.6590576171875,
+            "b": 506.18267822265625,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            235
+          ]
+        }
+      ],
+      "text": "At the effective date, the collateral pool is expected to contain approximately 207 obligors and 286 individual loan positions. The portfolio emphasizes first-lien senior secured loans but permits limited exposure to other asset types."
+    },
+    {
+      "element_index": 27,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/26",
+      "hierarchy_level": 3,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.66551208496094,
+            "t": 490.7120666503906,
+            "r": 567.5315551757812,
+            "b": 422.06268310546875,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            723
+          ]
+        }
+      ],
+      "text": "The initial collateral balance is $520,000,000, comprising 207 obligors and 286 loans, with an average loan position of $1,818,182. The largest obligor represents 1.80% of the portfolio. The portfolio is 91.0% senior secured, including 88.0% first-lien and 3.0% second-lien assets, with 1.0% unsecured assets. Floating-rate assets account for 96.0% and fixed-rate assets for 4.0%. The weighted average spread is 3.86%, weighted average coupon is 7.94%, weighted average rating is B+/B1 equivalent, weighted average maturity is 6.0 years, and weighted average life is 4.8 years. The expected recovery assumption is 64.0%, current-pay assets account for 98.2%, CCC/lower-rated exposure is 4.4%, and the Diversity Score is 73."
+    },
+    {
+      "element_index": 28,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/27",
+      "hierarchy_level": 3,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.83559036254883,
+            "t": 391.3643798828125,
+            "r": 542.3779907226562,
+            "b": 360.867431640625,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            298
+          ]
+        }
+      ],
+      "text": "The portfolio is geographically concentrated in North America but includes smaller exposures to Western European borrowers where permitted. The largest industry exposure at the effective date is Health Care Services at 12.6%, followed by Software & Services at 11.8% and Business Services at 10.9%."
+    },
+    {
+      "element_index": 29,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/28",
+      "hierarchy_level": 2,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.421875,
+            "t": 744.5592041015625,
+            "r": 209.950927734375,
+            "b": 733.796875,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "text": "Industry and geographic mix"
+    },
+    {
+      "element_index": 30,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/29",
+      "hierarchy_level": 3,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.83559036254883,
+            "t": 692.3243408203125,
+            "r": 574.1148681640625,
+            "b": 660.2627563476562,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            318
+          ]
+        }
+      ],
+      "text": "The portfolio exposure is diversified across several industries, with Health Care Services accounting for 12.6%, Software & Services 11.8%, Business Services 10.9%, Chemicals 9.1%, Media & Telecommunications 8.4%, Manufacturing 8.1%, Consumer Products 7.7%, Transportation & Logistics 6.9%, and Other industries 24.5%."
+    },
+    {
+      "element_index": 31,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/30",
+      "hierarchy_level": 3,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.63999938964844,
+            "t": 644.204345703125,
+            "r": 546.774169921875,
+            "b": 612.1427001953125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            282
+          ]
+        }
+      ],
+      "text": "Approximately 87% of the collateral is linked to U.S. borrowers, 8% to Canadian borrowers and 5% to Western European borrowers. Geographic exposure is measured using the transaction's designated jurisdiction methodology rather than the location of a borrower's administrative agent."
+    },
+    {
+      "element_index": 32,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/31",
+      "hierarchy_level": 1,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.256587982177734,
+            "t": 582.8759155273438,
+            "r": 251.47422790527344,
+            "b": 569.5912475585938,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "text": "5. Collateral Eligibility Criteria"
+    },
+    {
+      "element_index": 33,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/32",
+      "hierarchy_level": 2,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.479366302490234,
+            "t": 543.1991577148438,
+            "r": 157.98318481445312,
+            "b": 532.4368286132812,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "text": "Eligible obligations"
+    },
+    {
+      "element_index": 34,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/33",
+      "hierarchy_level": 3,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.971649169921875,
+            "t": 514.244384765625,
+            "r": 555.3867797851562,
+            "b": 482.18267822265625,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            363
+          ]
+        }
+      ],
+      "text": "Eligible collateral generally consists of corporate loan obligations, including first-lien term loans, permitted second-lien loans, revolving credit interests and certain participation interests. An asset must have a maturity that does not extend beyond the legal final maturity and must satisfy the transaction's minimum spread, currency and credit requirements."
+    },
+    {
+      "element_index": 35,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/34",
+      "hierarchy_level": 3,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.71653366088867,
+            "t": 462.40435791015625,
+            "r": 552.9185180664062,
+            "b": 430.2226867675781,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            315
+          ]
+        }
+      ],
+      "text": "The minimum permitted spread for a floating-rate loan is generally 1.75% over the applicable reference rate. The manager may acquire fixed-rate assets only within the fixed-rate concentration limit. Defaulted obligations may be acquired only where specifically permitted and may be subject to valuation adjustments."
+    },
+    {
+      "element_index": 36,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/35",
+      "hierarchy_level": 2,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.479366302490234,
+            "t": 405.3191833496094,
+            "r": 168.93701171875,
+            "b": 394.5569152832031,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "text": "Eligibility parameters"
+    },
+    {
+      "element_index": 37,
+      "element_type": "TableItem",
+      "label": "table",
+      "self_ref": "#/tables/1",
+      "hierarchy_level": 3,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 49.87887191772461,
+            "t": 385.5011901855469,
+            "r": 417.446044921875,
+            "b": 181.12261962890625,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "text": "",
+      "table": true,
+      "table_ref": "#/tables/1"
+    },
+    {
+      "element_index": 38,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/36",
+      "hierarchy_level": 1,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.22856140136719,
+            "t": 152.91587829589844,
+            "r": 241.90597534179688,
+            "b": 142.40585327148438,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "text": "6. Concentration Limitations"
+    },
+    {
+      "element_index": 39,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/37",
+      "hierarchy_level": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.83559036254883,
+            "t": 742.1243896484375,
+            "r": 538.7801513671875,
+            "b": 711.866455078125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            298
+          ]
+        }
+      ],
+      "text": "The concentration framework is intended to prevent the collateral pool from becoming excessively dependent on a single borrower, industry, jurisdiction or asset type. A proposed trade can be an eligible investment and still be prohibited because it would cause a concentration limit to be exceeded."
+    },
+    {
+      "element_index": 40,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/38",
+      "hierarchy_level": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.83559036254883,
+            "t": 685.8443603515625,
+            "r": 538.9581298828125,
+            "b": 641.78271484375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            400
+          ]
+        }
+      ],
+      "text": "The concentration limits are 2.25% for a single obligor and 9.00% for the top five obligors combined. The largest industry is capped at 14.00%, geographic jurisdiction at 18.00%, second-lien assets at 5.00%, unsecured assets at 2.00%, fixed-rate assets at 7.50%, CCC/lower-rated assets at 7.00%, current-pay CCC assets at 5.00%, long-dated obligations at 12.00%, and delayeddraw obligations at 4.00%."
+    },
+    {
+      "element_index": 41,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/39",
+      "hierarchy_level": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.63999938964844,
+            "t": 610.9822998046875,
+            "r": 554.3897705078125,
+            "b": 591.022705078125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            228
+          ]
+        }
+      ],
+      "text": "A concentration breach generally restricts additional purchases that would worsen the breach. The manager may be permitted to sell or substitute assets to restore compliance, with cure mechanics depending on the particular test."
+    },
+    {
+      "element_index": 42,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/40",
+      "hierarchy_level": 1,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 51.22856140136719,
+            "t": 561.7559204101562,
+            "r": 224.47056579589844,
+            "b": 548.4712524414062,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "text": "7. Collateral Quality Tests"
+    },
+    {
+      "element_index": 43,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/41",
+      "hierarchy_level": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.83559036254883,
+            "t": 527.204345703125,
+            "r": 554.1051025390625,
+            "b": 495.1426696777344,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            349
+          ]
+        }
+      ],
+      "text": "The manager monitors portfolio quality using weighted average spread, weighted average life, diversity, rating measures and recovery assumptions. The transaction uses a Weighted Average Rating Factor (WARF) ceiling of 3,120, a minimum weighted average spread of 3.55% and a maximum weighted average life of 5.75 years during the reinvestment period."
+    },
+    {
+      "element_index": 44,
+      "element_type": "TableItem",
+      "label": "table",
+      "self_ref": "#/tables/2",
+      "hierarchy_level": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 49.58634567260742,
+            "t": 484.4728698730469,
+            "r": 267.1928405761719,
+            "b": 366.423095703125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "text": "",
+      "table": true,
+      "table_ref": "#/tables/2"
+    },
+    {
+      "element_index": 45,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/42",
+      "hierarchy_level": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.83559036254883,
+            "t": 348.28436279296875,
+            "r": 547.3909912109375,
+            "b": 328.2226867675781,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            251
+          ]
+        }
+      ],
+      "text": "These measures are evaluated using the transaction's specified calculation conventions. The initial values are illustrative point-in-time measurements and can change as collateral is purchased, sold, repaid, upgraded, downgraded or otherwise modified."
+    },
+    {
+      "element_index": 46,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/43",
+      "hierarchy_level": 1,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 51.21454620361328,
+            "t": 298.8359069824219,
+            "r": 172.92486572265625,
+            "b": 285.55120849609375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "text": "8. Coverage Tests"
+    },
+    {
+      "element_index": 47,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/44",
+      "hierarchy_level": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 51.134422302246094,
+            "t": 259.2972106933594,
+            "r": 287.70355224609375,
+            "b": 248.3969268798828,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "text": "Overcollateralization and interest coverage"
+    },
+    {
+      "element_index": 48,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/45",
+      "hierarchy_level": 3,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.793067932128906,
+            "t": 230.09291076660156,
+            "r": 545.2294921875,
+            "b": 210.26266479492188,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            247
+          ]
+        }
+      ],
+      "text": "The Transaction uses OC and IC tests to protect the more senior classes. The OC ratios compare the relevant collateral balance with the specified note balances, while IC tests compare available interest proceeds with required interest obligations."
+    },
+    {
+      "element_index": 49,
+      "element_type": "TableItem",
+      "label": "table",
+      "self_ref": "#/tables/3",
+      "hierarchy_level": 3,
+      "page_start": 6,
+      "page_end": 6,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 49.64661407470703,
+            "t": 749.3934745788574,
+            "r": 278.8703918457031,
+            "b": 646.0278625488281,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "text": "",
+      "table": true,
+      "table_ref": "#/tables/3"
+    },
+    {
+      "element_index": 50,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/46",
+      "hierarchy_level": 3,
+      "page_start": 6,
+      "page_end": 6,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.83559036254883,
+            "t": 625.724365234375,
+            "r": 558.2754516601562,
+            "b": 593.63623046875,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            320
+          ]
+        }
+      ],
+      "text": "The tests are measured on each payment-date calculation date and at other times specified by the transaction documents. If a test fails, available cash can be redirected away from junior classes until the applicable deficiency is cured. The exact diversion amount depends on the failed test and the waterfall provisions."
+    },
+    {
+      "element_index": 51,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/47",
+      "hierarchy_level": 1,
+      "page_start": 6,
+      "page_end": 6,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 51.08842849731445,
+            "t": 564.1497192382812,
+            "r": 219.50320434570312,
+            "b": 553.7518310546875,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "text": "9. Interest Diversion Test"
+    },
+    {
+      "element_index": 52,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/48",
+      "hierarchy_level": 2,
+      "page_start": 6,
+      "page_end": 6,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 51.46786880493164,
+            "t": 524.5991821289062,
+            "r": 167.86355590820312,
+            "b": 516.113525390625,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "text": "Diversion mechanics"
+    },
+    {
+      "element_index": 53,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/49",
+      "hierarchy_level": 3,
+      "page_start": 6,
+      "page_end": 6,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.793067932128906,
+            "t": 495.77288818359375,
+            "r": 555.7086181640625,
+            "b": 463.70269775390625,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            307
+          ]
+        }
+      ],
+      "text": "The Interest Diversion Test is measured on each payment date during the reinvestment period. For Summit CLO 2026-2, the required Interest Diversion Test level is 105.0%. The calculation compares the adjusted collateral principal balance and applicable liabilities using the transaction-specific methodology."
+    },
+    {
+      "element_index": 54,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/50",
+      "hierarchy_level": 3,
+      "page_start": 6,
+      "page_end": 6,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.793067932128906,
+            "t": 443.8043518066406,
+            "r": 552.8720703125,
+            "b": 411.74267578125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            375
+          ]
+        }
+      ],
+      "text": "If the test is below the required level, a portion of interest proceeds otherwise distributable to the subordinated interests can be diverted to purchase additional collateral or otherwise increase collateral enhancement, subject to the governing documents. The diversion continues until the test is cured or the applicable payment-date conditions cease to require diversion."
+    },
+    {
+      "element_index": 55,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/51",
+      "hierarchy_level": 1,
+      "page_start": 6,
+      "page_end": 6,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 51.74705505371094,
+            "t": 382.35589599609375,
+            "r": 198.7653045654297,
+            "b": 369.2533874511719,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "text": "10. Principal Waterfall"
+    },
+    {
+      "element_index": 56,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/52",
+      "hierarchy_level": 2,
+      "page_start": 6,
+      "page_end": 6,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 51.192752838134766,
+            "t": 347.7023010253906,
+            "r": 516.1107788085938,
+            "b": 327.8362121582031,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            208
+          ]
+        }
+      ],
+      "text": "Principal proceeds include principal repayments, sale proceeds treated as principal and other principal collections. During the reinvestment period, principal proceeds can be used for permitted reinvestments."
+    },
+    {
+      "element_index": 57,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/53",
+      "hierarchy_level": 2,
+      "page_start": 6,
+      "page_end": 6,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.63999938964844,
+            "t": 307.8443603515625,
+            "r": 551.31396484375,
+            "b": 275.7826843261719,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            308
+          ]
+        }
+      ],
+      "text": "After the reinvestment period, available principal is generally applied sequentially to the rated notes, beginning with Class A-1 and then moving through the capital structure. Principal distributions to subordinated interests are residual and occur only after higher-ranking obligations have been satisfied."
+    },
+    {
+      "element_index": 58,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/54",
+      "hierarchy_level": 2,
+      "page_start": 6,
+      "page_end": 6,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.971649169921875,
+            "t": 255.88433837890625,
+            "r": 544.9055786132812,
+            "b": 225.50643920898438,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            285
+          ]
+        }
+      ],
+      "text": "Following an event of default or certain optional redemption events, the principal waterfall can operate under a different priority. The post-default provisions are designed to preserve the relative priority of the note classes while enabling enforcement and liquidation of collateral."
+    },
+    {
+      "element_index": 59,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/55",
+      "hierarchy_level": 1,
+      "page_start": 6,
+      "page_end": 6,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 51.74705505371094,
+            "t": 194.30978393554688,
+            "r": 243.6179656982422,
+            "b": 183.92587280273438,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "text": "11. Reinvestment Mechanics"
+    },
+    {
+      "element_index": 60,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/56",
+      "hierarchy_level": 2,
+      "page_start": 6,
+      "page_end": 6,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.88146209716797,
+            "t": 154.8791961669922,
+            "r": 267.32684326171875,
+            "b": 144.1168975830078,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "text": "Trading during the reinvestment period"
+    },
+    {
+      "element_index": 61,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/57",
+      "hierarchy_level": 3,
+      "page_start": 6,
+      "page_end": 6,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.83559036254883,
+            "t": 125.92437744140625,
+            "r": 543.5653686523438,
+            "b": 105.74270629882812,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            261
+          ]
+        }
+      ],
+      "text": "The reinvestment period runs from June 30, 2026 through June 30, 2029, subject to the transaction's stated termination conventions. During this period, the manager may reinvest principal proceeds in eligible collateral and may sell assets for permitted reasons."
+    },
+    {
+      "element_index": 62,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/58",
+      "hierarchy_level": 3,
+      "page_start": 6,
+      "page_end": 6,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 51.192752838134766,
+            "t": 85.96435546875,
+            "r": 533.5179443359375,
+            "b": 54.02273941040039,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            377
+          ]
+        }
+      ],
+      "text": "Permitted trading includes replacing an asset with another eligible asset, improving portfolio quality, managing concentration, responding to borrower events and maintaining compliance with collateral tests. A trade cannot be evaluated solely on spread: the manager must also consider maturity, rating, diversity, industry exposure, asset type and the effect on coverage tests."
+    },
+    {
+      "element_index": 63,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/59",
+      "hierarchy_level": 2,
+      "page_start": 7,
+      "page_end": 7,
+      "provenance": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 51.479366302490234,
+            "t": 734.8391723632812,
+            "r": 191.59963989257812,
+            "b": 724.226318359375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "text": "Post-reinvestment period"
+    },
+    {
+      "element_index": 64,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/60",
+      "hierarchy_level": 3,
+      "page_start": 7,
+      "page_end": 7,
+      "provenance": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 50.63999938964844,
+            "t": 705.7643432617188,
+            "r": 555.9073486328125,
+            "b": 673.7962036132812,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            320
+          ]
+        }
+      ],
+      "text": "After June 30, 2029, ordinary reinvestment generally ceases. Limited sales and substitutions can continue where permitted, but principal collections are principally directed toward deleveraging. The manager may still be required to dispose of assets to address defaults, concentration breaches or other specified events."
+    },
+    {
+      "element_index": 65,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/61",
+      "hierarchy_level": 1,
+      "page_start": 7,
+      "page_end": 7,
+      "provenance": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 51.74705505371094,
+            "t": 644.3158569335938,
+            "r": 315.4154052734375,
+            "b": 631.0311889648438,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "text": "12. Redemption, Refinancing and Reset"
+    },
+    {
+      "element_index": 66,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/62",
+      "hierarchy_level": 2,
+      "page_start": 7,
+      "page_end": 7,
+      "provenance": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 50.83559036254883,
+            "t": 609.8843383789062,
+            "r": 540.834228515625,
+            "b": 589.8226928710938,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            211
+          ]
+        }
+      ],
+      "text": "The non-call period is 15 months from the closing date. After the non-call period, the subordinated interests may, subject to required conditions, direct an optional redemption or refinancing of the rated notes."
+    },
+    {
+      "element_index": 67,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/63",
+      "hierarchy_level": 2,
+      "page_start": 7,
+      "page_end": 7,
+      "provenance": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 50.63999938964844,
+            "t": 569.6843872070312,
+            "r": 556.5826416015625,
+            "b": 538.0762329101562,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            319
+          ]
+        }
+      ],
+      "text": "A clean-up call may be exercised if the aggregate collateral principal balance falls below 10% of the original collateral balance , provided the other contractual conditions are met. Refinancing or repricing may require specified noteholder consents and satisfaction of applicable economic and documentation conditions."
+    },
+    {
+      "element_index": 68,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/64",
+      "hierarchy_level": 2,
+      "page_start": 7,
+      "page_end": 7,
+      "provenance": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 50.63999938964844,
+            "t": 517.96435546875,
+            "r": 526.1915283203125,
+            "b": 497.9026794433594,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            256
+          ]
+        }
+      ],
+      "text": "A reset transaction may extend the reinvestment period or modify selected economic terms if the required classes approve the transaction. The rights of the subordinated interests are subject to the voting and conflict provisions of the governing documents."
+    },
+    {
+      "element_index": 69,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/65",
+      "hierarchy_level": 1,
+      "page_start": 8,
+      "page_end": 8,
+      "provenance": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 51.74705505371094,
+            "t": 740.5497436523438,
+            "r": 206.5941925048828,
+            "b": 727.5733642578125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "text": "13. Fees and Expenses"
+    },
+    {
+      "element_index": 70,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/66",
+      "hierarchy_level": 2,
+      "page_start": 8,
+      "page_end": 8,
+      "provenance": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 50.83559036254883,
+            "t": 695.5643920898438,
+            "r": 551.907958984375,
+            "b": 675.5027465820312,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            232
+          ]
+        }
+      ],
+      "text": "The management fee is paid according to the interest waterfall and is subject to the fee provisions in the governing documents. Certain expenses can receive senior priority even when the transaction's collateral performance is weak."
+    },
+    {
+      "element_index": 71,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/67",
+      "hierarchy_level": 2,
+      "page_start": 8,
+      "page_end": 8,
+      "provenance": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 50.83559036254883,
+            "t": 659.5643920898438,
+            "r": 573.57470703125,
+            "b": 603.3827514648438,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            598
+          ]
+        }
+      ],
+      "text": "The base management fee is 0.35% per annum on the collateral principal balance. The trustee fee is 0.045% per annum, subject to a minimum annual fee, while collateral administration is charged at 0.025% per annum. The calculation agent fee is $32,500 per year plus specified extraordinary charges, and custody is charged at 0.015% per annum. Rating expenses are payable at cost, as are legal expenses subject to transaction budget controls. Placement expenses are payable as agreed in the closing documents, while extraordinary expenses are payable according to the priority-of-payments provisions."
+    },
+    {
+      "element_index": 72,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/68",
+      "hierarchy_level": 1,
+      "page_start": 8,
+      "page_end": 8,
+      "provenance": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 51.74705505371094,
+            "t": 573.8697509765625,
+            "r": 300.7689208984375,
+            "b": 560.7112426757812,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "text": "14. Manager Powers and Restrictions"
+    },
+    {
+      "element_index": 73,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/69",
+      "hierarchy_level": 2,
+      "page_start": 8,
+      "page_end": 8,
+      "provenance": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 51.421875,
+            "t": 534.439208984375,
+            "r": 165.84774780273438,
+            "b": 523.6768798828125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "text": "Investment authority"
+    },
+    {
+      "element_index": 74,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/70",
+      "hierarchy_level": 3,
+      "page_start": 8,
+      "page_end": 8,
+      "provenance": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 50.90361785888672,
+            "t": 505.484375,
+            "r": 542.9441528320312,
+            "b": 473.4226989746094,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            273
+          ]
+        }
+      ],
+      "text": "Granite Peak Capital Management may acquire, dispose of, substitute and reinvest collateral, negotiate amendments and exercise specified rights relating to collateral assets. The manager must apply reasonable procedures for eligibility, valuation and compliance monitoring."
+    },
+    {
+      "element_index": 75,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/71",
+      "hierarchy_level": 2,
+      "page_start": 8,
+      "page_end": 8,
+      "provenance": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 51.479366302490234,
+            "t": 448.65716552734375,
+            "r": 193.32843017578125,
+            "b": 440.0335388183594,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "text": "Restrictions and conflicts"
+    },
+    {
+      "element_index": 76,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/72",
+      "hierarchy_level": 3,
+      "page_start": 8,
+      "page_end": 8,
+      "provenance": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 50.83559036254883,
+            "t": 419.5643615722656,
+            "r": 532.7098999023438,
+            "b": 387.3826904296875,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            310
+          ]
+        }
+      ],
+      "text": "The manager may not knowingly acquire prohibited investments or cause the portfolio to exceed applicable concentration limits. Conflicts can arise when the manager manages multiple accounts that could transact in the same asset. The transaction therefore includes allocation and conflict-management provisions."
+    },
+    {
+      "element_index": 77,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/73",
+      "hierarchy_level": 3,
+      "page_start": 8,
+      "page_end": 8,
+      "provenance": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 50.90361785888672,
+            "t": 367.6043701171875,
+            "r": 544.4551391601562,
+            "b": 335.42266845703125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            305
+          ]
+        }
+      ],
+      "text": "Manager termination or replacement can occur following specified events, including certain material breaches, insolvency events or persistent failures to perform required obligations. Replacement rights are subject to the voting thresholds and eligibility requirements specified for a replacement manager."
+    },
+    {
+      "element_index": 78,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/74",
+      "hierarchy_level": 1,
+      "page_start": 8,
+      "page_end": 8,
+      "provenance": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 51.74705505371094,
+            "t": 306.27587890625,
+            "r": 289.27801513671875,
+            "b": 295.7658386230469,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "text": "15. Events of Default and Remedies"
+    },
+    {
+      "element_index": 79,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/75",
+      "hierarchy_level": 2,
+      "page_start": 8,
+      "page_end": 8,
+      "provenance": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 50.92913055419922,
+            "t": 271.48431396484375,
+            "r": 539.7338256835938,
+            "b": 252.12095642089844,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            174
+          ]
+        }
+      ],
+      "text": "Events of default may include failure to pay required amounts when due, insolvency of the issuer, specified breaches of transaction documents, and other contractual defaults."
+    },
+    {
+      "element_index": 80,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/76",
+      "hierarchy_level": 2,
+      "page_start": 8,
+      "page_end": 8,
+      "provenance": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 50.793067932128906,
+            "t": 231.76434326171875,
+            "r": 546.09716796875,
+            "b": 201.38644409179688,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            280
+          ]
+        }
+      ],
+      "text": "Following an event of default, the trustee may exercise remedies available under the governing documents, potentially including acceleration of the notes and enforcement against the collateral. Eligible noteholders may have specified rights to direct or consent to trustee action."
+    },
+    {
+      "element_index": 81,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/77",
+      "hierarchy_level": 2,
+      "page_start": 8,
+      "page_end": 8,
+      "provenance": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 50.63999938964844,
+            "t": 179.5643310546875,
+            "r": 553.3692016601562,
+            "b": 159.62271118164062,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            241
+          ]
+        }
+      ],
+      "text": "After acceleration, proceeds from collateral liquidation are distributed under the applicable post-default waterfall. Subordinated interests generally remain last in priority and can suffer a complete loss before senior classes are impaired."
+    }
+  ],
+  "tables": [
+    {
+      "table_number": 1,
+      "element_index": 16,
+      "page_start": 2,
+      "page_end": 2,
+      "docling_ref": "#/tables/0",
+      "table_file": "tables/Summit_CLO_2026_2_document_table_001.md",
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.608150482177734,
+            "t": 492.1235046386719,
+            "r": 382.1151428222656,
+            "b": 359.8408203125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "summary": "**Purpose**  \nThis table details the capital structure of a corporate debt issuance, listing each rated class, its principal amount, rating, coupon/spread, priority, and approximate subordination level.\n\n**Key Information**  \n- **Total rated principal**: $468.0 million (sum of Classes A‑1 through E).  \n- **Subordinated principal**: $52.0 million, classified as “NR” (non‑rated).  \n- **Overall capitalization**: $520.0 million, with subordinated notes representing 10.0 % of the initial capitalization.  \n- **Class hierarchy (seniority)**:  \n  1. **Class A‑1 Notes** – $312 million, AAA, SOFR + 1.72 %, first priority, 40.0 % subordination.  \n  2. **Class A‑2 Notes** – $41.6 million, AA, SOFR + 2.18 %, second priority, 32.0 % subordination.  \n  3. **Class B Notes** – $36.4 million, A, SOFR + 2.70 %, third priority, 25.0 % subordination.  \n  4. **Class C Notes** – $31.2 million, BBB, SOFR + 3.45 %, fourth priority, 19.0 % subordination.  \n  5. **Class D Notes** – $26 million, BB, SOFR + 5.10 %, fifth priority, 14.0 % subordination.  \n  6. **Class E Notes** – $20.8 million, B‑ (B‑), SOFR + 7.25 %, sixth priority, 10.0 % subordination.  \n  7. **Subordinated Notes** – $52 million, NR, residual coupon, last priority, residual subordination.  \n\n**Notable Insights**  \n- **Coupon spread increases with lower rating**: from SOFR + 1.72 % (AAA) to SOFR + 7.25 % (B‑).  \n- **Subordination percentage decreases with seniority**: highest at 40.0 % for Class A‑1, lowest at 10.0 % for Class E.  \n- **Principal amounts decline progressively through the classes**, reflecting a typical senior‑to‑junior structure.  \n- **Subordinated notes are the largest single component of the overall capitalization** (52 million out of 520 million).  \n- **The structure aligns with a five‑rated‑class framework plus a subordinated layer**, as described in the surrounding document."
+    },
+    {
+      "table_number": 2,
+      "element_index": 37,
+      "page_start": 4,
+      "page_end": 4,
+      "docling_ref": "#/tables/1",
+      "table_file": "tables/Summit_CLO_2026_2_document_table_002.md",
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 49.87887191772461,
+            "t": 385.5011901855469,
+            "r": 417.446044921875,
+            "b": 181.12261962890625,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "summary": "**Purpose**  \nThe table lists the specific eligibility and concentration limits that a Summit CLO 2026‑2 investment must meet.\n\n**Key Information**\n\n- **Currency & Maturity**  \n  - Primary currency: **USD**.  \n  - CAD and EUR are allowed only after conversion and subject to concentration rules.  \n  - Asset maturity must be **no later than the legal final maturity**, with extensions permitted only as specified.\n\n- **Pricing & Spread**  \n  - Minimum floating spread: **1.75 %**.  \n  - Minimum purchase price: **65.0** (subject to asset‑specific rules).  \n  - Maximum purchase price for discounted obligations: **100.0** unless otherwise permitted.\n\n- **Concentration & Risk Limits**  \n  - Second‑lien limit: **5.0 %**.  \n  - Unsecured limit: **2.0 %**.  \n  - Fixed‑rate limit: **7.5 %**.  \n  - CCC / lower‑rated limit: **7.0 %**.  \n  - Delayed‑draw limit: **4.0 %**.  \n  - Revolving commitment limit: **8.0 %**.  \n  - Defaulted obligation limit: **3.0 %**.\n\n**Notable Insights**\n\n- All limits are expressed as percentages of the portfolio, except for pricing thresholds (floating spread, purchase price, discounted‑obligation price).  \n- The table emphasizes a strict cap on exposure to lower‑rated and unsecured assets (≤ 7.0 % and ≤ 2.0 % respectively).  \n- The highest concentration cap is on revolving commitments (8.0 %), while the lowest is on unsecured exposure (2.0 %).  \n- The requirement for a minimum floating spread (1.75 %) and a minimum purchase price (65.0) sets a baseline for investment quality.  \n\n**Summary Points**\n\n1. **Table Representation** – Eligibility criteria and concentration limits for Summit CLO 2026‑2.  \n2. **Entities/Categories** – Currency rules, maturity rules, pricing thresholds, and various concentration limits (second‑lien, unsecured, fixed‑rate, CCC/lower‑rated, delayed‑draw, revolving, defaulted).  \n3. **Metrics & Measures** – Percentages (e.g., 5.0 %, 2.0 %) and numeric thresholds (e.g., 1.75 %, 65.0, 100.0).  \n4. **Year/Date Range** – 2026‑2 (no additional year ranges).  \n5. **Important Numerical Values** – 1.75 %, 65.0, 100.0, 5.0 %, 2.0 %, 7.5 %, 7.0 %, 4.0 %, 8.0 %, 3.0 %.  \n6. **Relationships** – Each criterion is paired with a specific numeric requirement; no comparative or trend data are provided.  \n7. **Observations** – The table sets a comprehensive set of caps to limit concentration across multiple risk dimensions, with the most restrictive limits on unsecured and lower‑rated exposures."
+    },
+    {
+      "table_number": 3,
+      "element_index": 44,
+      "page_start": 5,
+      "page_end": 5,
+      "docling_ref": "#/tables/2",
+      "table_file": "tables/Summit_CLO_2026_2_document_table_003.md",
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 49.58634567260742,
+            "t": 484.4728698730469,
+            "r": 267.1928405761719,
+            "b": 366.423095703125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "summary": "**Purpose**  \nThe table presents the initial coverage‑test results for the transaction, showing whether each quality measure meets its specified requirement.\n\n**Key Information**  \n- **Quality Measures & Requirements**  \n  - WARF: ≤ 3,120 → Initial value 2,964 → Pass  \n  - Weighted Average Spread: ≥ 3.55 % → Initial value 3.86 % → Pass  \n  - Weighted Average Life: ≤ 5.75 years → Initial value 4.80 years → Pass  \n  - Diversity Score: ≥ 65 → Initial value 73 → Pass  \n  - CCC / lower‑rated exposure: ≤ 7.00 % → Initial value 4.40 % → Pass  \n  - Expected recovery: ≥ 60.0 % target → Initial value 64.0 % → Pass  \n\n- All six metrics satisfy their respective thresholds, resulting in a “Pass” status for each.\n\n**Notable Insights**  \n- The transaction’s WARF (2,964) is comfortably below the ceiling of 3,120, indicating a strong rating profile.  \n- The weighted average spread (3.86 %) exceeds the minimum requirement, suggesting favorable pricing.  \n- The weighted average life (4.80 years) is well within the maximum allowed, implying manageable duration risk.  \n- Diversity and recovery metrics also surpass their targets, reflecting a robust collateral mix and recovery outlook.  \n- No metric fails or is borderline; the initial snapshot shows full compliance with all coverage tests."
+    },
+    {
+      "table_number": 4,
+      "element_index": 49,
+      "page_start": 6,
+      "page_end": 6,
+      "docling_ref": "#/tables/3",
+      "table_file": "tables/Summit_CLO_2026_2_document_table_004.md",
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 49.64661407470703,
+            "t": 749.3934745788574,
+            "r": 278.8703918457031,
+            "b": 646.0278625488281,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "summary": "**Purpose**  \nThe table displays the required over‑collateralization (OC) and interest‑coverage (IC) thresholds, the illustrative initial ratios, and the cushion (difference between initial ratio and threshold) for each senior class in the transaction.\n\n**Key Information**  \n- **Tests & Thresholds**  \n  - Class A OC: 129.0%  \n  - Class B OC: 119.0%  \n  - Class C OC: 111.0%  \n  - Class D OC: 105.0%  \n  - Class A IC: 150.0%  \n  - Class B IC: 135.0%  \n- **Illustrative Initial Values**  \n  - Class A OC: 133.6%  \n  - Class B OC: 123.4%  \n  - Class C OC: 114.8%  \n  - Class D OC: 108.2%  \n  - Class A IC: 161.7%  \n  - Class B IC: 146.9%  \n- **Cushion (Initial – Threshold)**  \n  - Class A OC: 4.6%  \n  - Class B OC: 4.4%  \n  - Class C OC: 3.8%  \n  - Class D OC: 3.2%  \n  - Class A IC: 11.7%  \n  - Class B IC: 11.9%  \n\n**Notable Insights**  \n- All classes exceed their required thresholds, with the largest cushion in the Class B IC test (11.9%) and the smallest in Class D OC (3.2%).  \n- OC cushions are generally smaller than IC cushions, indicating tighter collateral requirements relative to interest‑coverage obligations.  \n- The order of classes by cushion size follows the hierarchy of seniority: higher‑seniority classes (A, B) maintain larger cushions than lower‑seniority classes (C, D)."
+    }
+  ]
+}

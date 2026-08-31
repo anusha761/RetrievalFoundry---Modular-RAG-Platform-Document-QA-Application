@@ -1,0 +1,457 @@
+{
+  "schema_version": "1.1",
+  "stage": "stage_1_docling_ingestion",
+  "document_id": "Crescent_CLO_2026-2",
+  "document_name": "Crescent_CLO_2026-2.pdf",
+  "source_file": "D:\\VECTORDBCREATION\\document_processing_db_creation\\Files\\Crescent_CLO_2026-2.pdf",
+  "processed_at": "2026-08-25T12:56:13.702238",
+  "docling_document_pages": 2,
+  "markdown_file": "documents/Crescent_CLO_2026-2.md",
+  "elements": [
+    {
+      "element_index": 0,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/0",
+      "hierarchy_level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 197.99000549316406,
+            "t": 772.5,
+            "r": 397.22998046875,
+            "b": 757.7200317382812,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "text": "Crescent CLO 2026-2"
+    },
+    {
+      "element_index": 1,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/1",
+      "hierarchy_level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 117.36199951171875,
+            "t": 736.4760131835938,
+            "r": 477.7819519042969,
+            "b": 725.2319946289062,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            61
+          ]
+        }
+      ],
+      "text": "Synthetic Transaction Description and Selected Offering Terms"
+    },
+    {
+      "element_index": 2,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/2",
+      "hierarchy_level": 2,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 59.763999938964844,
+            "t": 688.4219970703125,
+            "r": 536.134033203125,
+            "b": 651.6390380859375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            312
+          ]
+        }
+      ],
+      "text": "Fictional-document notice. Crescent CLO 2026-2 is a wholly synthetic transaction created for retrieval-augmented generation testing. Crescent Capital Management, LLC, the Issuer, the Co-Issuer, and all numerical data described herein are fictional. This document does not describe an actual security or offering."
+    },
+    {
+      "element_index": 3,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/3",
+      "hierarchy_level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 60.6359977722168,
+            "t": 612.6019897460938,
+            "r": 220.58599853515625,
+            "b": 602.2559814453125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "text": "1. Transaction Overview"
+    },
+    {
+      "element_index": 4,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/4",
+      "hierarchy_level": 2,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 59.869998931884766,
+            "t": 583.0900268554688,
+            "r": 535.3638916015625,
+            "b": 505.8299865722656,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            439
+          ]
+        }
+      ],
+      "text": "Crescent CLO 2026-2 (the 'Transaction') is a $525.0 million cash flow collateralized loan obligation managed by Crescent Capital Management, LLC. The Transaction is structured as a U.S. dollar-denominated investment vehicle primarily targeting senior secured corporate loans. The Issuer is Crescent CLO 2026-2, Ltd., an exempted company incorporated under the laws of the Cayman Islands, and Crescent CLO 2026-2, LLC acts as the Co-Issuer."
+    },
+    {
+      "element_index": 5,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/5",
+      "hierarchy_level": 2,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 59.7599983215332,
+            "t": 491.8399963378906,
+            "r": 535.89990234375,
+            "b": 431.55999755859375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            350
+          ]
+        }
+      ],
+      "text": "The capital structure is designed with multiple tranches of rated debt, providing varied risk-return profiles for institutional investors. Subordinated notes represent the equity component, absorbing the first loss in the event of portfolio credit deterioration. The non-call period is two years, providing stability during the initial ramp-up phase."
+    },
+    {
+      "element_index": 6,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/6",
+      "hierarchy_level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 59.80500030517578,
+            "t": 415.7279968261719,
+            "r": 289.84796142578125,
+            "b": 405.4209899902344,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "text": "1.1 Transaction Summary and Capitalization"
+    },
+    {
+      "element_index": 7,
+      "element_type": "TableItem",
+      "label": "table",
+      "self_ref": "#/tables/0",
+      "hierarchy_level": 2,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 55.31468287297689,
+            "t": 398.3547883669485,
+            "r": 539.4396741819482,
+            "b": 95.9492570855025,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "text": "",
+      "table": true,
+      "table_ref": "#/tables/0"
+    },
+    {
+      "element_index": 8,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/9",
+      "hierarchy_level": 1,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.0620002746582,
+            "t": 734.4920043945312,
+            "r": 280.25396728515625,
+            "b": 721.3739624023438,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "text": "2. Collateral Portfolio and Quality"
+    },
+    {
+      "element_index": 9,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/10",
+      "hierarchy_level": 2,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.529998779296875,
+            "t": 704.4400024414062,
+            "r": 535.3519287109375,
+            "b": 627.0399780273438,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            447
+          ]
+        }
+      ],
+      "text": "The portfolio is managed with a focus on senior secured loans, which must represent at least 90% of the total collateral balance. The Weighted Average Spread (WAS) trigger is 3.50%, and the Moody's Weighted Average Rating Factor (WARF) is capped at 3,100. The Diversity Score for the portfolio is targeted at 65, ensuring no single industry or obligor dominates the credit risk. The single obligor limit is 2.0% of the aggregate principal balance."
+    },
+    {
+      "element_index": 10,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/11",
+      "hierarchy_level": 1,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.795997619628906,
+            "t": 609.7720336914062,
+            "r": 288.87799072265625,
+            "b": 596.6539916992188,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "text": "3. Coverage and Interest Diversion"
+    },
+    {
+      "element_index": 11,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/12",
+      "hierarchy_level": 2,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.7599983215332,
+            "t": 579.719970703125,
+            "r": 535.3499755859375,
+            "b": 502.41998291015625,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            488
+          ]
+        }
+      ],
+      "text": "To protect senior noteholders, the transaction features Overcollateralization (OC) and Interest Coverage (IC) tests. The Class A/B OC test has a required threshold of 122.5%. Failure of any OC test results in the redirection of interest proceeds to pay down the principal of senior notes. Additionally, during the reinvestment period, an Interest Diversion Test is applied; if the Class E OC ratio falls below 106.5%, a portion of interest is redirected to purchase additional collateral."
+    },
+    {
+      "element_index": 12,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/13",
+      "hierarchy_level": 1,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.145999908447266,
+            "t": 484.88397216796875,
+            "r": 219.89999389648438,
+            "b": 472.1159973144531,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "text": "4. Redemption and Fees"
+    },
+    {
+      "element_index": 13,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/14",
+      "hierarchy_level": 2,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.619998931884766,
+            "t": 455.0,
+            "r": 535.0317993164062,
+            "b": 396.58001708984375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            337
+          ]
+        }
+      ],
+      "text": "Optional redemption is permitted after October 20, 2028, at the direction of the subordinated noteholders. The Collateral Manager receives a Base Management Fee of 0.15% per annum and a Subordinated Management Fee of 0.35% per annum. An incentive fee of 20% is applicable once a 12% IRR is achieved for the subordinated interest holders."
+    },
+    {
+      "element_index": 14,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/15",
+      "hierarchy_level": 1,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.11800003051758,
+            "t": 377.2060241699219,
+            "r": 210.56199645996094,
+            "b": 364.2140197753906,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "text": "5. Reporting and Risks"
+    },
+    {
+      "element_index": 15,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/16",
+      "hierarchy_level": 2,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.7599983215332,
+            "t": 347.2699890136719,
+            "r": 535.3497924804688,
+            "b": 303.8900146484375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            302
+          ]
+        }
+      ],
+      "text": "The Collateral Administrator provides monthly reports covering asset details, rating changes, and compliance test results. Key risks include credit default risk within the leveraged loan portfolio, interest rate basis risk between SOFR tenors, and reinvestment risk during periods of market volatility."
+    }
+  ],
+  "tables": [
+    {
+      "table_number": 1,
+      "element_index": 7,
+      "page_start": 1,
+      "page_end": 1,
+      "docling_ref": "#/tables/0",
+      "table_file": "tables/Crescent_CLO_2026-2_table_001.md",
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 55.31468287297689,
+            "t": 398.3547883669485,
+            "r": 539.4396741819482,
+            "b": 95.9492570855025,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "summary": "**Purpose**  \nThis table presents the key terms and capital structure of Crescent CLO 2026‑2, Ltd.\n\n**Key Information**\n\n- **Issuer & Manager** – Crescent CLO 2026‑2, Ltd.; Collateral Manager: Crescent Capital Management.  \n- **Timing** – Closing Date: September 15 2026; Legal Final Maturity: October 20 2038; Reinvestment Period: 5 Years (2031).  \n- **Collateral & Capital** – Target Collateral: **$500,000,000**.  \n- **Senior Note Classes**  \n  - *Class A*: **$315,000,000**, rating **AAA / Aaa**, spread **3m SOFR + 1.45 %**.  \n  - *Class B*: **$60,000,000**, rating **AA / Aa2**, spread **3m SOFR + 2.10 %**.  \n  - *Class C*: **$32,500,000**, rating **A / A2**, spread **3m SOFR + 3.25 %**.  \n  - *Class D*: **$27,500,000**, rating **BBB / Baa2**, spread **3m SOFR + 4.50 %**.  \n  - *Class E*: **$20,000,000**, rating **BB / Ba2**, spread **3m SOFR + 7.85 %**.  \n- **Subordinated Notes** – **$70,000,000**, rating **NR**, residual terms.  \n\n**Notable Insights**\n\n- Senior notes total **$455,000,000** (91 % of target collateral); subordinated notes represent **$70,000,000** (14 % of target collateral).  \n- Spreads rise monotonically from Class A to Class E, reflecting increasing credit risk.  \n- The spread differential between the lowest‑rated senior note (Class E) and the highest‑rated senior note (Class A) is **6.40 percentage points** (7.85 % – 1.45 %).  \n- The legal maturity is 12 years from closing, with a 5‑year reinvestment period ending in 2031.  \n- Ratings span from **AAA / Aaa** for the most senior notes to **NR** for subordinated notes, illustrating a clear senior‑to‑junior hierarchy."
+    }
+  ]
+}

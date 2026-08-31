@@ -1,0 +1,1003 @@
+{
+  "schema_version": "1.1",
+  "stage": "stage_1_docling_ingestion",
+  "document_id": "Pinecrest_CLO_2026-2",
+  "document_name": "Pinecrest_CLO_2026-2.pdf",
+  "source_file": "D:\\VECTORDBCREATION\\document_processing_db_creation\\Files\\Pinecrest_CLO_2026-2.pdf",
+  "processed_at": "2026-08-25T12:59:18.066799",
+  "docling_document_pages": 5,
+  "markdown_file": "documents/Pinecrest_CLO_2026-2.md",
+  "elements": [
+    {
+      "element_index": 0,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/0",
+      "hierarchy_level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 186.14599609375,
+            "t": 766.2659912109375,
+            "r": 409.64398193359375,
+            "b": 750.0079956054688,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "text": "Pinecrest CLO 2026-2"
+    },
+    {
+      "element_index": 1,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/1",
+      "hierarchy_level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 166.80599975585938,
+            "t": 722.3060302734375,
+            "r": 428.16595458984375,
+            "b": 711.06201171875,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "text": "Offering Memorandum & Portfolio Description"
+    },
+    {
+      "element_index": 2,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/2",
+      "hierarchy_level": 2,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 59.93499755859375,
+            "t": 674.2420043945312,
+            "r": 535.498046875,
+            "b": 651.6570434570312,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            231
+          ]
+        }
+      ],
+      "text": "Fictional-document notice. Pinecrest CLO 2026-2 is a synthetic transaction created for retrieval-augmented generation testing. All entities, dates, and financial figures are fictional and generated for software validation purposes."
+    },
+    {
+      "element_index": 3,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/3",
+      "hierarchy_level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 60.6359977722168,
+            "t": 612.6019897460938,
+            "r": 409.1239013671875,
+            "b": 599.4839477539062,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ],
+      "text": "1. Key Transaction Parameters and Capital Structure"
+    },
+    {
+      "element_index": 4,
+      "element_type": "TableItem",
+      "label": "table",
+      "self_ref": "#/tables/0",
+      "hierarchy_level": 2,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 55.45550763361282,
+            "t": 588.1676375113136,
+            "r": 539.3000210845421,
+            "b": 285.8957557619468,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "text": "",
+      "table": true,
+      "table_ref": "#/tables/0"
+    },
+    {
+      "element_index": 5,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/4",
+      "hierarchy_level": 2,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 59.7599983215332,
+            "t": 253.739990234375,
+            "r": 535.6597900390625,
+            "b": 195.3199920654297,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            347
+          ]
+        }
+      ],
+      "text": "The table above represents the initial capitalization of Pinecrest CLO 2026-2. The transaction is backed by a portfolio of senior secured corporate loans. Pinecrest Asset Management LLC will act as the Collateral Manager, utilizing its proprietary credit analysis framework to maintain the portfolio within the boundaries defined in the Indenture."
+    },
+    {
+      "element_index": 6,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/7",
+      "hierarchy_level": 1,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.87999725341797,
+            "t": 734.365966796875,
+            "r": 323.10797119140625,
+            "b": 721.3739624023438,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "text": "2. Transaction Parties and Management"
+    },
+    {
+      "element_index": 7,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/8",
+      "hierarchy_level": 2,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.80500030517578,
+            "t": 702.0280151367188,
+            "r": 199.05398559570312,
+            "b": 691.7210083007812,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "text": "2.1 The Collateral Manager"
+    },
+    {
+      "element_index": 8,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/9",
+      "hierarchy_level": 3,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.619998931884766,
+            "t": 678.9300537109375,
+            "r": 535.3687744140625,
+            "b": 618.5299682617188,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            380
+          ]
+        }
+      ],
+      "text": "Pinecrest Asset Management LLC is an institutional credit manager based in the United States. The Manager is responsible for the selection, acquisition, and disposition of all Collateral Obligations. The Manager's authority includes trading during the Reinvestment Period and managing credit-risk assets following the end of such period to maximize recoveries for the Noteholders."
+    },
+    {
+      "element_index": 9,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/10",
+      "hierarchy_level": 2,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.80500030517578,
+            "t": 599.8889770507812,
+            "r": 259.49896240234375,
+            "b": 589.6809692382812,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "text": "2.2 Trustee and Administrative Agents"
+    },
+    {
+      "element_index": 10,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/11",
+      "hierarchy_level": 3,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 60.0099983215332,
+            "t": 576.8800048828125,
+            "r": 535.3419189453125,
+            "b": 516.489990234375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            408
+          ]
+        }
+      ],
+      "text": "Meridian Trust & Savings, N.A. has been appointed as the Trustee. In this capacity, it holds the Collateral Obligations on behalf of the Secured Parties. Meridian also serves as the Collateral Administrator, responsible for performing the mathematical calculations associated with the Coverage Tests and the Interest Waterfall. Sterling Chase Securities, Inc. serves as the Lead Arranger and Placement Agent."
+    },
+    {
+      "element_index": 11,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/12",
+      "hierarchy_level": 2,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.80500030517578,
+            "t": 497.93798828125,
+            "r": 172.8409881591797,
+            "b": 487.6309814453125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "text": "2.3 Legal Governance"
+    },
+    {
+      "element_index": 12,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/13",
+      "hierarchy_level": 3,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.709999084472656,
+            "t": 474.8299865722656,
+            "r": 535.3819580078125,
+            "b": 414.44000244140625,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            392
+          ]
+        }
+      ],
+      "text": "The transaction is governed by an Indenture dated as of the Closing Date. Legal counsel to the Manager is Reed & Vance, P.C., while the Issuer is represented by Ashford & Gable LLP. The structure is designed to comply with U.S. Risk Retention regulations and provides for certain transparency requirements including the delivery of Monthly and Payment Date Reports to all qualified investors."
+    },
+    {
+      "element_index": 13,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/16",
+      "hierarchy_level": 1,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 60.0620002746582,
+            "t": 734.4920043945312,
+            "r": 275.14398193359375,
+            "b": 724.14599609375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "text": "3. Collateral Portfolio Guidelines"
+    },
+    {
+      "element_index": 14,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/17",
+      "hierarchy_level": 2,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.947998046875,
+            "t": 702.0280151367188,
+            "r": 167.97897338867188,
+            "b": 691.7210083007812,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "text": "3.1 Eligibility Criteria"
+    },
+    {
+      "element_index": 15,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/18",
+      "hierarchy_level": 3,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.96999740600586,
+            "t": 678.9300537109375,
+            "r": 535.677001953125,
+            "b": 601.5199584960938,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            481
+          ]
+        }
+      ],
+      "text": "Each asset acquired by the Issuer must meet the 'Eligibility Criteria' as of the date the Manager commits to purchase it. Principal requirements include: (a) the asset must be a Senior Secured Loan or a Second Lien Loan; (b) it must be denominated in USD; (c) it must have a Moody's Rating and an S&P Rating; and (d) it must not be a Defaulted Obligation or a Credit Risk Obligation. The Manager is prohibited from purchasing 'Equity Securities' or 'Structured Finance Securities'."
+    },
+    {
+      "element_index": 16,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/19",
+      "hierarchy_level": 2,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.947998046875,
+            "t": 582.9779663085938,
+            "r": 213.6399688720703,
+            "b": 574.8489990234375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "text": "3.2 Concentration Limitations"
+    },
+    {
+      "element_index": 17,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/20",
+      "hierarchy_level": 3,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.55999755859375,
+            "t": 559.8700561523438,
+            "r": 535.679931640625,
+            "b": 482.4700012207031,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            453
+          ]
+        }
+      ],
+      "text": "To ensure a diversified risk profile, the following limits are applied to the Adjusted Collateral Principal Balance: (i) Single Obligor limit of 2.0%; (ii) Second Lien and Unsecured Loan limit of 10.0%; (iii) Fixed Rate Obligation limit of 5.0%; and (iv) CCC/Caa asset limit of 7.5%. Industry concentration is capped at 12.0% per GICS category, though the Manager may exceed this for up to three industries (up to 15.0%) with Rating Agency confirmation."
+    },
+    {
+      "element_index": 18,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/21",
+      "hierarchy_level": 2,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.947998046875,
+            "t": 463.9179992675781,
+            "r": 199.61497497558594,
+            "b": 453.6109924316406,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "text": "3.3 Collateral Quality Tests"
+    },
+    {
+      "element_index": 19,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/22",
+      "hierarchy_level": 3,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.709999084472656,
+            "t": 440.82000732421875,
+            "r": 535.6898803710938,
+            "b": 380.4200134277344,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            372
+          ]
+        }
+      ],
+      "text": "The Manager monitors several quality metrics: the Weighted Average Spread (WAS) must be at least 3.55%; the Weighted Average Rating Factor (WARF) must not exceed 2,900; and the Diversity Score must be at least 60. The Weighted Average Life (WAL) test ensures the portfolio does not extend too far beyond the legal maturity of the notes, with an initial limit of 8.5 years."
+    },
+    {
+      "element_index": 20,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/25",
+      "hierarchy_level": 1,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.795997619628906,
+            "t": 734.4920043945312,
+            "r": 361.2159423828125,
+            "b": 721.3739624023438,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "text": "4. Coverage Tests and Cash Flow Application"
+    },
+    {
+      "element_index": 21,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/26",
+      "hierarchy_level": 2,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.73899841308594,
+            "t": 702.0280151367188,
+            "r": 384.2059631347656,
+            "b": 691.7210083007812,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "text": "4.1 Overcollateralization (OC) and Interest Coverage (IC) Tests"
+    },
+    {
+      "element_index": 22,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/27",
+      "hierarchy_level": 3,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.709999084472656,
+            "t": 678.9400024414062,
+            "r": 535.35791015625,
+            "b": 603.5,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            436
+          ]
+        }
+      ],
+      "text": "The transaction features robust structural protections. The Class A/B OC Test is set at 123.0%, ensuring that for every $100 of senior debt, there is at least $123 of collateral value (as adjusted for defaults and CCC assets). The Class C, D, and E OC tests are set at 115.5%, 110.2%, and 106.0% respectively. The IC Tests, which measure the adequacy of interest collections to pay note interest, are set at 120.0% for the senior notes."
+    },
+    {
+      "element_index": 23,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/28",
+      "hierarchy_level": 2,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.73899841308594,
+            "t": 582.9779663085938,
+            "r": 244.8469696044922,
+            "b": 572.81396484375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "text": "4.2 Interest and Principal Waterfalls"
+    },
+    {
+      "element_index": 24,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/29",
+      "hierarchy_level": 3,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.55999755859375,
+            "t": 559.8800048828125,
+            "r": 535.69287109375,
+            "b": 482.4700012207031,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            509
+          ]
+        }
+      ],
+      "text": "On each quarterly Payment Date, the Issuer will apply Interest Proceeds to pay administrative expenses, management fees, and interest on the notes in order of seniority. If a Coverage Test is failed, interest proceeds that would have gone to junior notes or equity are redirected to pay down the principal of the most senior class. Principal Proceeds during the Reinvestment Period are typically used to purchase new assets, while after the Reinvestment Period, they are used to redeem the notes sequentially."
+    },
+    {
+      "element_index": 25,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/30",
+      "hierarchy_level": 2,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.73899841308594,
+            "t": 463.8190002441406,
+            "r": 196.3369903564453,
+            "b": 455.78900146484375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "text": "4.3 Interest Diversion Test"
+    },
+    {
+      "element_index": 26,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/31",
+      "hierarchy_level": 3,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.529998779296875,
+            "t": 440.83001708984375,
+            "r": 535.3759155273438,
+            "b": 382.4000244140625,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            335
+          ]
+        }
+      ],
+      "text": "Unique to the Reinvestment Period, the Interest Diversion Test is a 'soft' trigger. If the Class E OC Ratio falls below 107.0%, the Issuer must divert 50% of available excess interest to the Principal Collection Account for the purchase of additional Collateral Obligations, rather than distributing it to the Subordinated Noteholders."
+    },
+    {
+      "element_index": 27,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/34",
+      "hierarchy_level": 1,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 60.145999908447266,
+            "t": 734.4920043945312,
+            "r": 287.5899658203125,
+            "b": 724.14599609375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "text": "5. Investment Risk Considerations"
+    },
+    {
+      "element_index": 28,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/35",
+      "hierarchy_level": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.55999755859375,
+            "t": 704.4400024414062,
+            "r": 535.3897705078125,
+            "b": 610.0299682617188,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            587
+          ]
+        }
+      ],
+      "text": "Investors should consider the following risks: (1) Credit Risk: The risk that borrowers of the underlying loans will fail to make payments. (2) Market Value Risk: The risk that the market price of the collateral will decline, potentially triggering 'discounted obligation' haircuts. (3) Reinvestment Risk: The risk that the Manager will be unable to find replacement assets with sufficient yield during the 5-year reinvestment window. (4) Structural Risk: The risk that the sequential priority of payments will leave junior and subordinated holders with no recovery in a stress scenario."
+    },
+    {
+      "element_index": 29,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/36",
+      "hierarchy_level": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 60.013999938964844,
+            "t": 591.3789672851562,
+            "r": 181.00299072265625,
+            "b": 581.1709594726562,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "text": "5.1 Legal Final Maturity"
+    },
+    {
+      "element_index": 30,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/37",
+      "hierarchy_level": 3,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.7599983215332,
+            "t": 568.3800048828125,
+            "r": 535.3419189453125,
+            "b": 524.989990234375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            281
+          ]
+        }
+      ],
+      "text": "The Legal Final Maturity of the notes is October 20, 2038. Noteholders should be aware that the actual life of the notes may be significantly shorter due to prepayments on the underlying loans or an optional redemption by the Subordinated Noteholders following the non-call period."
+    },
+    {
+      "element_index": 31,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/38",
+      "hierarchy_level": 1,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 60.11800003051758,
+            "t": 504.8919982910156,
+            "r": 280.60400390625,
+            "b": 491.7740173339844,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "text": "6. Glossary of Transaction Terms"
+    },
+    {
+      "element_index": 32,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/39",
+      "hierarchy_level": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.529998779296875,
+            "t": 474.8299865722656,
+            "r": 535.89697265625,
+            "b": 448.45001220703125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            171
+          ]
+        }
+      ],
+      "text": "Adjusted Collateral Principal Balance: The aggregate principal balance of the portfolio, minus haircuts for defaulted assets, long-dated assets, and excess CCC/Caa assets."
+    },
+    {
+      "element_index": 33,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/40",
+      "hierarchy_level": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 60.189998626708984,
+            "t": 432.32000732421875,
+            "r": 535.8878173828125,
+            "b": 405.92999267578125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            163
+          ]
+        }
+      ],
+      "text": "Defaulted Obligation: Any asset for which the obligor is in bankruptcy or has failed to pay interest or principal for a period exceeding the relevant grace period."
+    },
+    {
+      "element_index": 34,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/41",
+      "hierarchy_level": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.7599983215332,
+            "t": 389.7900085449219,
+            "r": 535.33984375,
+            "b": 363.4100036621094,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            125
+          ]
+        }
+      ],
+      "text": "Effective Date: The date (March 28, 2027) by which the Manager must have substantially invested the Target Portfolio balance."
+    },
+    {
+      "element_index": 35,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/42",
+      "hierarchy_level": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 60.29999923706055,
+            "t": 347.1499938964844,
+            "r": 535.33984375,
+            "b": 320.8900146484375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            125
+          ]
+        }
+      ],
+      "text": "Reinvestment Period: The period during which the Manager may buy and sell assets, ending on the Payment Date in October 2031."
+    },
+    {
+      "element_index": 36,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/43",
+      "hierarchy_level": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.64999771118164,
+            "t": 304.75,
+            "r": 535.0399169921875,
+            "b": 278.3699951171875,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            128
+          ]
+        }
+      ],
+      "text": "WARF (Weighted Average Rating Factor): A measure of the default probability of the portfolio as assigned by the Rating Agencies."
+    }
+  ],
+  "tables": [
+    {
+      "table_number": 1,
+      "element_index": 4,
+      "page_start": 1,
+      "page_end": 1,
+      "docling_ref": "#/tables/0",
+      "table_file": "tables/Pinecrest_CLO_2026-2_table_001.md",
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 55.45550763361282,
+            "t": 588.1676375113136,
+            "r": 539.3000210845421,
+            "b": 285.8957557619468,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "summary": "**Purpose**  \nThe table details the initial capitalization structure of the Pinecrest CLO 2026‑2 synthetic transaction.\n\n**Key Information**\n\n- **Issuer & Manager**  \n  - Issuer: *Pinecrest Funding II, Ltd.*  \n  - Collateral Manager: *Pinecrest Asset Management LLC*  \n\n- **Timing**  \n  - Closing Date: **October 28, 2026**  \n  - Non‑Call Period: **Until October 2028**  \n  - Reinvestment End: **October 20, 2031**  \n\n- **Portfolio & Capitalization**  \n  - Target Portfolio: **$550,000,000**  \n  - Total of all note classes + subordinated: **$550,000,000** (verified by summing class amounts)\n\n- **Note Classes**  \n  | Class | Amount | Rating (S&P/MDY) | Interest / Margin |\n  |-------|--------|------------------|-------------------|\n  | A‑1 | $346,500,000 | AAA / Aaa | 3m SOFR + 1.48 % |\n  | A‑2 | $44,000,000 | AA / Aa2 | 3m SOFR + 2.05 % |\n  | B | $38,500,000 | A / A2 | 3m SOFR + 3.10 % |\n  | C | $30,250,000 | BBB / Baa2 | 3m SOFR + 4.65 % |\n  | D | $19,250,000 | BB / Ba2 | 3m SOFR + 7.95 % |\n  | Subordinated | $71,500,000 | NR | Residual |\n\n- **Interest‑Margin Trend**  \n  - Higher credit quality (AAA) → lowest margin (1.48 %)  \n  - Lower credit quality (BB) → highest margin (7.95 %)  \n\n**Notable Insights**\n\n- The CLO’s capital structure follows a classic waterfall: senior AAA‑rated notes receive the lowest spread, while the lowest‑rated BB notes carry the highest spread, reflecting risk‑based pricing.  \n- The subordinated residual tranche (NR) is the largest single component at **$71.5 M**, providing the most upside but also the highest risk.  \n- The sum of all note classes equals the target portfolio, confirming a fully allocated structure.  \n- The non‑call period of two years (Oct 2026–Oct 2028) and the reinvestment horizon of nearly five years (Oct 2026–Oct 2031) set clear timelines for cash‑flow generation and portfolio turnover."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# RAG evaluation
+deepeval==4.1.10
+
+# Evaluation output
+pandas==2.3.3
+openpyxl==3.1.5

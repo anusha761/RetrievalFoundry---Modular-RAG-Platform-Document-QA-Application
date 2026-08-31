@@ -1,0 +1,24 @@
+# Document processing
+docling==2.118.1
+docling-hierarchical-pdf==0.1.8
+
+# Configuration
+python-dotenv==1.2.2
+
+# LLM / API client
+openai==2.53.0
+
+# Chunking / tokenization
+tiktoken==0.13.0
+
+# Embeddings / retrieval / reranking
+fastembed==0.8.0
+sentence-transformers==5.7.0
+
+# Vector database
+qdrant-client==1.19.0
+
+# API
+fastapi==0.141.1
+uvicorn==0.52.1
+pydantic==2.13.4

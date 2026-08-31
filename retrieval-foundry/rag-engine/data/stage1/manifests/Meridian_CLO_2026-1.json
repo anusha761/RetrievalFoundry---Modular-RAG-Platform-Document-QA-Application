@@ -1,0 +1,951 @@
+{
+  "schema_version": "1.1",
+  "stage": "stage_1_docling_ingestion",
+  "document_id": "Meridian_CLO_2026-1",
+  "document_name": "Meridian_CLO_2026-1.pdf",
+  "source_file": "D:\\VECTORDBCREATION\\document_processing_db_creation\\Files\\Meridian_CLO_2026-1.pdf",
+  "processed_at": "2026-08-25T12:58:21.317142",
+  "docling_document_pages": 5,
+  "markdown_file": "documents/Meridian_CLO_2026-1.md",
+  "elements": [
+    {
+      "element_index": 0,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/0",
+      "hierarchy_level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 190.39199829101562,
+            "t": 766.2659912109375,
+            "r": 402.8899841308594,
+            "b": 750.0079956054688,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "text": "Meridian CLO 2026-1"
+    },
+    {
+      "element_index": 1,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/1",
+      "hierarchy_level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 148.46600341796875,
+            "t": 722.3060302734375,
+            "r": 446.75,
+            "b": 711.06201171875,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "text": "Offering Memorandum & Portfolio Quality Standards"
+    },
+    {
+      "element_index": 2,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/2",
+      "hierarchy_level": 2,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 59.709999084472656,
+            "t": 673.2699584960938,
+            "r": 535.06787109375,
+            "b": 646.8799438476562,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            191
+          ]
+        }
+      ],
+      "text": "Fictional-document notice. Meridian CLO 2026-1 is a synthetic transaction created for RAG application testing. All numerical values, dates, and entities described herein are purely fictional."
+    },
+    {
+      "element_index": 3,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/3",
+      "hierarchy_level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 60.6359977722168,
+            "t": 626.7820434570312,
+            "r": 220.58599853515625,
+            "b": 616.43603515625,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "text": "1. Transaction Overview"
+    },
+    {
+      "element_index": 4,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/4",
+      "hierarchy_level": 2,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 59.529998779296875,
+            "t": 597.260009765625,
+            "r": 535.3447265625,
+            "b": 536.3299560546875,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            382
+          ]
+        }
+      ],
+      "text": "Meridian CLO 2026-1 is a $600.0 million collateralized loan obligation managed by Meridian Capital Advisors LLC. The transaction features a diverse portfolio of broadly syndicated senior secured loans, designed to provide investors with floating-rate returns indexed to Term SOFR. The capital structure consists of multiple tranches of rated debt and a subordinated equity interest."
+    },
+    {
+      "element_index": 5,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/5",
+      "hierarchy_level": 2,
+      "page_start": 1,
+      "page_end": 1,
+      "provenance": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 59.709999084472656,
+            "t": 520.199951171875,
+            "r": 535.3449096679688,
+            "b": 459.7900085449219,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            341
+          ]
+        }
+      ],
+      "text": "The Issuer, Meridian CLO 2026-1, Ltd., is a Cayman Islands exempted company. The notes are issued on the Closing Date of December 1, 2026, and have a legal final maturity of January 15, 2039. The transaction includes a 5-year reinvestment period during which the Manager may actively trade the portfolio to optimize credit quality and yield."
+    },
+    {
+      "element_index": 6,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/8",
+      "hierarchy_level": 1,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.87999725341797,
+            "t": 734.4920043945312,
+            "r": 406.35198974609375,
+            "b": 724.14599609375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ],
+      "text": "2. Collateral Portfolio and Concentration Framework"
+    },
+    {
+      "element_index": 7,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/9",
+      "hierarchy_level": 2,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.7599983215332,
+            "t": 704.4400024414062,
+            "r": 535.680908203125,
+            "b": 661.0499877929688,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            234
+          ]
+        }
+      ],
+      "text": "The following table outlines the fundamental collateralization requirements and concentration limits that govern the Meridian CLO 2026-1 portfolio. These metrics are monitored daily and reported monthly to ensure structural integrity."
+    },
+    {
+      "element_index": 8,
+      "element_type": "TableItem",
+      "label": "table",
+      "self_ref": "#/tables/0",
+      "hierarchy_level": 2,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 55.61052593024714,
+            "t": 650.3741409185911,
+            "r": 539.227110809814,
+            "b": 348.3965627621249,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "text": "",
+      "table": true,
+      "table_ref": "#/tables/0"
+    },
+    {
+      "element_index": 9,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/10",
+      "hierarchy_level": 2,
+      "page_start": 2,
+      "page_end": 2,
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 59.55999755859375,
+            "t": 316.0899963378906,
+            "r": 535.6779174804688,
+            "b": 255.70001220703125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            338
+          ]
+        }
+      ],
+      "text": "This framework provides the boundaries within which Meridian Capital Advisors LLC operates. Compliance with these limits is a prerequisite for any reinvestment of principal proceeds during the Reinvestment Period. Failure to maintain these levels may restrict the Manager's ability to trade and could impact the priority of distributions."
+    },
+    {
+      "element_index": 10,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/13",
+      "hierarchy_level": 1,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 60.0620002746582,
+            "t": 734.4920043945312,
+            "r": 356.0499572753906,
+            "b": 721.3739624023438,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "text": "3. Capital Structure and Priority of Payments"
+    },
+    {
+      "element_index": 11,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/14",
+      "hierarchy_level": 2,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.947998046875,
+            "t": 702.0280151367188,
+            "r": 212.4409637451172,
+            "b": 691.7210083007812,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "text": "3.1 Note Classes and Ratings"
+    },
+    {
+      "element_index": 12,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/15",
+      "hierarchy_level": 3,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.07999801635742,
+            "t": 678.9400024414062,
+            "r": 535.9028930664062,
+            "b": 601.5199584960938,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            498
+          ]
+        }
+      ],
+      "text": "The debt issued by Meridian CLO 2026-1 includes Class A, B, C, D, and E Notes. The Class A Notes, totaling $384.0 million, are rated AAA by S&P and Aaa by Moody's, carrying a spread of 1.52% over 3-month Term SOFR. The Class B Notes ($66.0 million) are rated AA/Aa2 with a spread of 2.15%. Class C Notes ($36.0 million) are rated A/A2 at SOFR + 3.40%. Class D and E Notes represent the mezzanine and junior debt, rated BBB and BB respectively, providing further subordination to the senior classes."
+    },
+    {
+      "element_index": 13,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/16",
+      "hierarchy_level": 2,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.947998046875,
+            "t": 582.9779663085938,
+            "r": 197.15098571777344,
+            "b": 574.8379516601562,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "text": "3.2 Subordinated Interests"
+    },
+    {
+      "element_index": 14,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/17",
+      "hierarchy_level": 3,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.7599983215332,
+            "t": 560.4100341796875,
+            "r": 535.349853515625,
+            "b": 482.5799865722656,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            457
+          ]
+        }
+      ],
+      "text": "The Subordinated Notes represent $60.0 million of the initial capitalization. These interests do not carry a stated interest rate but are entitled to all residual Interest Proceeds and Principal Proceeds after the required payments to the rated notes and administrative expenses have been satisfied. The Subordinated Noteholders retain significant control over the transaction, including the right to direct an optional redemption after the non-call period."
+    },
+    {
+      "element_index": 15,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/18",
+      "hierarchy_level": 2,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.947998046875,
+            "t": 463.9179992675781,
+            "r": 192.8719940185547,
+            "b": 455.77801513671875,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "text": "3.3 Structural Protections"
+    },
+    {
+      "element_index": 16,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/19",
+      "hierarchy_level": 3,
+      "page_start": 3,
+      "page_end": 3,
+      "provenance": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 59.7599983215332,
+            "t": 440.83001708984375,
+            "r": 535.8939208984375,
+            "b": 363.4100036621094,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            431
+          ]
+        }
+      ],
+      "text": "The transaction utilizes Overcollateralization (OC) and Interest Coverage (IC) tests to protect senior noteholders. If the Class A/B OC Ratio falls below 122.0%, cash flow is diverted to redeem Class A principal. Similar triggers exist for junior classes (Class C at 114.5%, Class D at 109.0%, and Class E at 105.0%). IC tests are set at 120.0% for the senior tranches, ensuring adequate coverage of quarterly interest obligations."
+    },
+    {
+      "element_index": 17,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/22",
+      "hierarchy_level": 1,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.795997619628906,
+            "t": 734.365966796875,
+            "r": 398.0498962402344,
+            "b": 721.3739624023438,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "text": "4. Manager Authority and Reinvestment Mechanics"
+    },
+    {
+      "element_index": 18,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/23",
+      "hierarchy_level": 2,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.73899841308594,
+            "t": 702.0280151367188,
+            "r": 182.83999633789062,
+            "b": 691.7210083007812,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "text": "4.1 Investment Strategy"
+    },
+    {
+      "element_index": 19,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/24",
+      "hierarchy_level": 3,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.7599983215332,
+            "t": 678.9300537109375,
+            "r": 535.057861328125,
+            "b": 618.5299682617188,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            410
+          ]
+        }
+      ],
+      "text": "Meridian Capital Advisors LLC focuses on senior secured corporate debt issued by U.S.-based companies. The Manager employs a fundamental bottom-up credit analysis, assessing the cash flow, leverage, and enterprise value of each obligor. During the Reinvestment Period, the Manager is authorized to sell credit-improved or credit-risk obligations and purchase new collateral that meets the eligibility criteria."
+    },
+    {
+      "element_index": 20,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/25",
+      "hierarchy_level": 2,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.73899841308594,
+            "t": 599.8889770507812,
+            "r": 186.5909881591797,
+            "b": 591.8590087890625,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "text": "4.2 Reinvestment Period"
+    },
+    {
+      "element_index": 21,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/26",
+      "hierarchy_level": 3,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.7599983215332,
+            "t": 576.8800048828125,
+            "r": 535.6597900390625,
+            "b": 516.489990234375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            408
+          ]
+        }
+      ],
+      "text": "The Reinvestment Period ends on January 15, 2031. During this five-year window, the Manager has maximum flexibility to manage the portfolio. After this period, the Manager's ability to reinvest is limited to unscheduled principal payments and proceeds from the sale of credit-risk assets, subject to stricter quality requirements. All other principal proceeds must be used to amortize the notes sequentially."
+    },
+    {
+      "element_index": 22,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/27",
+      "hierarchy_level": 2,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.73899841308594,
+            "t": 497.93798828125,
+            "r": 229.3589630126953,
+            "b": 487.6309814453125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "text": "4.3 Redemption and Refinancing"
+    },
+    {
+      "element_index": 23,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/28",
+      "hierarchy_level": 3,
+      "page_start": 4,
+      "page_end": 4,
+      "provenance": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.7599983215332,
+            "t": 474.8299865722656,
+            "r": 535.3798828125,
+            "b": 414.44000244140625,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            382
+          ]
+        }
+      ],
+      "text": "The notes are subject to a non-call period ending January 15, 2029. Following this date, the Subordinated Noteholders may direct a redemption of the notes in whole or in part. The Issuer also has the right to refinance specific classes of notes to take advantage of favorable market conditions, provided certain economic tests are met to ensure no disadvantage to remaining classes."
+    },
+    {
+      "element_index": 24,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/31",
+      "hierarchy_level": 1,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 60.145999908447266,
+            "t": 734.323974609375,
+            "r": 305.50994873046875,
+            "b": 721.5559692382812,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "text": "5. Fees and Administrative Expenses"
+    },
+    {
+      "element_index": 25,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/32",
+      "hierarchy_level": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.7599983215332,
+            "t": 704.4400024414062,
+            "r": 535.6808471679688,
+            "b": 627.1500244140625,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            406
+          ]
+        }
+      ],
+      "text": "The Collateral Manager receives a Base Management Fee of 0.15% per annum and a Subordinated Management Fee of 0.30% per annum, calculated on the Fee Basis Amount. Additionally, an Incentive Management Fee of 20.0% is payable once the Subordinated Notes have achieved a 12.0% Internal Rate of Return (IRR). Administrative expenses, including Trustee and Rating Agency fees, are capped at $250,000 per annum."
+    },
+    {
+      "element_index": 26,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/33",
+      "hierarchy_level": 1,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 60.11800003051758,
+            "t": 606.9420166015625,
+            "r": 209.79197692871094,
+            "b": 596.5960083007812,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "text": "6. Risk Considerations"
+    },
+    {
+      "element_index": 27,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/34",
+      "hierarchy_level": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.992000579833984,
+            "t": 574.468017578125,
+            "r": 202.6619873046875,
+            "b": 566.3390502929688,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "text": "6.1 Credit and Market Risks"
+    },
+    {
+      "element_index": 28,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/35",
+      "hierarchy_level": 3,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.07999801635742,
+            "t": 551.3700561523438,
+            "r": 535.06494140625,
+            "b": 490.9700012207031,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            385
+          ]
+        }
+      ],
+      "text": "Investment in the notes involves significant risks, including the credit risk of the underlying borrowers and market volatility. Defaults in the portfolio may lead to a reduction in the Adjusted Collateral Principal Balance, potentially causing a breach of the Coverage Tests. This would result in the deferral of interest on junior notes and a total loss for subordinated noteholders."
+    },
+    {
+      "element_index": 29,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/36",
+      "hierarchy_level": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.992000579833984,
+            "t": 472.4280090332031,
+            "r": 233.21998596191406,
+            "b": 462.1210021972656,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "text": "6.2 Liquidity and Structural Risks"
+    },
+    {
+      "element_index": 30,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/37",
+      "hierarchy_level": 3,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.709999084472656,
+            "t": 449.32000732421875,
+            "r": 535.8978271484375,
+            "b": 388.92999267578125,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            352
+          ]
+        }
+      ],
+      "text": "There is no established secondary market for the notes, and liquidity may be severely limited. Furthermore, the structural priority of the waterfall means that senior noteholders have priority over all cash flows. Junior noteholders should be prepared for potential interest deferral and the risk that their notes may not be repaid in full at maturity."
+    },
+    {
+      "element_index": 31,
+      "element_type": "SectionHeaderItem",
+      "label": "section_header",
+      "self_ref": "#/texts/38",
+      "hierarchy_level": 1,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 60.11800003051758,
+            "t": 368.8219909667969,
+            "r": 197.36000061035156,
+            "b": 355.7040100097656,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "text": "7. Glossary of Terms"
+    },
+    {
+      "element_index": 32,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/39",
+      "hierarchy_level": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.529998779296875,
+            "t": 338.7699890136719,
+            "r": 535.0599365234375,
+            "b": 312.3900146484375,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            158
+          ]
+        }
+      ],
+      "text": "Adjusted Collateral Principal Balance: The sum of the principal of all assets, adjusted for haircuts on defaulted, discounted, and excess CCC/Caa obligations."
+    },
+    {
+      "element_index": 33,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/40",
+      "hierarchy_level": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.86000061035156,
+            "t": 296.260009765625,
+            "r": 535.6588745117188,
+            "b": 269.8699951171875,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            118
+          ]
+        }
+      ],
+      "text": "Coverage Tests: The OC and IC tests that monitor the health of the transaction and determine the priority of payments."
+    },
+    {
+      "element_index": 34,
+      "element_type": "TextItem",
+      "label": "text",
+      "self_ref": "#/texts/41",
+      "hierarchy_level": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "provenance": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 59.55999755859375,
+            "t": 253.72999572753906,
+            "r": 535.687744140625,
+            "b": 227.35000610351562,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            130
+          ]
+        }
+      ],
+      "text": "Effective Date: March 15, 2027, the date by which the initial portfolio must be fully ramped and compliant with all quality tests."
+    }
+  ],
+  "tables": [
+    {
+      "table_number": 1,
+      "element_index": 8,
+      "page_start": 2,
+      "page_end": 2,
+      "docling_ref": "#/tables/0",
+      "table_file": "tables/Meridian_CLO_2026-1_table_001.md",
+      "provenance": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 55.61052593024714,
+            "t": 650.3741409185911,
+            "r": 539.227110809814,
+            "b": 348.3965627621249,
+            "coord_origin": "CoordOrigin.BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "summary": "**Purpose**  \nThe table outlines the collateralization requirements and concentration limits that govern the Meridian CLO 2026‑1 portfolio, ensuring structural integrity during the Reinvestment Period.\n\n**Key Information**  \n- **Collateralization metrics**  \n  - Weighted Average Spread: **Min 3.40 %** (Initial 3.62 %)  \n  - Weighted Average Rating: **Max 3,000** (Initial 2,840)  \n  - Weighted Average Life: **Max 8.5 yrs** (Initial target)  \n  - Expected Recovery Rate: **Min 43.5 %**  \n- **Concentration limits**  \n  - Senior Secured Loans: **Min 90.0 %** (first‑lien priority)  \n  - Second Lien / Unsecured: **Max 10.0 %** (junior secured/unsecured)  \n  - Single Obligor limit: **Max 2.0 %** (example: 5 names at 2.5 %)  \n  - Single Industry limit: **Max 12.0 %** (example: 3 industries at 15.0 %)  \n  - CCC / Caa Exposure: **Max 7.5 %** (low‑rated allowance)  \n  - Fixed Rate Assets: **Max 5.0 %** (non‑floating rate)  \n  - Current Pay Obligations: **Max 2.5 %** (distressed paying cash)  \n- **Diversity**  \n  - Diversity Score: **Min 60** (Target 68) – measures obligor and industry breadth  \n\n**Notable Insights**  \n- The portfolio is required to maintain a high concentration of senior secured loans (≥ 90 %) while limiting exposure to junior and unsecured debt to ≤ 10 %.  \n- The diversity score target (68) exceeds the minimum (60), indicating a deliberate effort to broaden obligor and industry exposure.  \n- The initial values for spread (3.62 %) and rating (2,840) are comfortably above the minimum thresholds, suggesting current compliance.  \n- Low‑rated exposure is capped at 7.5 %, with an additional haircut applied by the OC, reflecting a conservative stance on credit risk.  \n- Fixed‑rate assets are limited to 5 % of the portfolio, aligning with a preference for floating‑rate exposure.  \n\nThis summary captures all entities, metrics, and numerical thresholds presented in the table without adding or inferring any additional information."
+    }
+  ]
+}
