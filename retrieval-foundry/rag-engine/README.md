@@ -463,15 +463,9 @@ python evaluation/deepeval/rag_evaluation.py \
 
 The resulting evaluation report contains scores for:
 
+[**View the evaluation scores (Excel)**](retrieval-foundry/rag-engine/evaluation/deepeval/RAG_Evaluation_Results.xlsx)
+
 - Answer Relevancy
 - Contextual Relevancy
 - Faithfulness
 
-## Limitations & Future Work
-
-- Add retrieval benchmarks across multiple datasets and query types
-- Evaluate chunking strategies quantitatively
-- Add query rewriting / decomposition for complex questions
-- Introduce observability for retrieval latency and ranking quality
-- Add automated regression evaluation for changes to retrieval configuration
-- Evaluate latency/cost trade-offs across embedding and reranking models
