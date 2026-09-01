@@ -40,7 +40,7 @@ QDRANT_URL = "http://localhost:6333"
 
 COLLECTION_NAME = "hybrid_rag"
 
-DENSE_MODEL_NAME = "BAAI/bge-base-en-v1.5"
+DENSE_MODEL_NAME = "jinaai/jina-embeddings-v2-base-en"
 SPARSE_MODEL_NAME = "Qdrant/bm25"
 
 VECTOR_NAME_DENSE = "text-dense"
