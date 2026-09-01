@@ -20,8 +20,6 @@ d:
 cd D://QdrantDB
 qdrant.exe
 
->curl -X DELETE "http://localhost:6333/collections/hybrid_rag
-
 Input
 -----
 Stage 2B JSONL chunk file.
@@ -29,8 +27,7 @@ Stage 2B JSONL chunk file.
 Stored in Qdrant
 ----------------
 Dense vector:
-    BAAI/bge-base-en-v1.5 (768 dimensions) X
-    "BAAI/bge-m3" (1024 dimensions) X
+    
     jinaai/jina-embeddings-v2-base-en
 
 Sparse vector:
