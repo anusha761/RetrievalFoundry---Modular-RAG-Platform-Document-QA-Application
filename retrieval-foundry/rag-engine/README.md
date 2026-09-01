@@ -477,9 +477,9 @@ The RAG pipeline was evaluated across **10 questions** using [DeepEval](https://
 
 | Metric | Average Score |
 |---|---:|
-| Answer Relevancy | **0.985** |
-| Contextual Relevancy | **0.960** |
-| Faithfulness | **0.990** |
+| Answer Relevancy | **0.995** |
+| Contextual Relevancy | **0.985** |
+| Faithfulness | **0.998** |
 
 For the complete question-level evaluation results, including the generated answers and individual metric scores, see the [**full evaluation results (Excel)**](https://github.com/anusha761/RetrievalFoundry---Modular-RAG-Platform-Document-QA-Application/blob/main/retrieval-foundry/rag-engine/evaluation/deepeval/RAG_Evaluation_Results.xlsx).
 
