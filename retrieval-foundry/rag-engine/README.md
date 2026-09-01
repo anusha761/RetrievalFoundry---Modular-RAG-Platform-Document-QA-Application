@@ -315,6 +315,7 @@ LLM-as-a-Judge
 
 ## 6. Repository Structure
 
+```text
 rag-engine/
 │
 ├── README.md
@@ -327,10 +328,10 @@ rag-engine/
 │   └── rag_engine/
 │       │
 │       ├── ingestion/
-│       │   ├── document_ingestion.py
-│       │   ├── chunking_metadata.py
-│       │   ├── qdrant_ingestion_local.py
-│       │   └── qdrant_ingestion.py
+│       │   ├── document_ingestion.py # step 1 (pdf-markdown)
+│       │   ├── chunking_metadata.py # step 2 (chunking with metadata)
+│       │   ├── qdrant_ingestion_local.py # step 3
+│       │   └── qdrant_ingestion.py # step 3
 │       │
 │       ├── retrieval/
 │       │   ├── retriever.py
@@ -353,7 +354,8 @@ rag-engine/
     ├── input/
     ├── stage_1/
     └── stage_2/
-|
+```
+
 ## Setup
 
 1. Create the environment
