@@ -10,10 +10,6 @@ Requirements
 ------------
 pip install -U qdrant-client fastembed
 
-Start Qdrant locally
---------------------
-docker run -p 6333:6333 qdrant/qdrant
-
 Input
 -----
 Stage 2B JSONL chunk file.
