@@ -30,8 +30,8 @@ from openai import OpenAI
 # CONFIGURATION
 # ==========================================================
 
-GROQ_MODEL_NAME = "openai/gpt-oss-20b"
-
+# GROQ_MODEL_NAME = "openai/gpt-oss-20b"
+GROQ_MODEL_NAME = "openai/gpt-oss-120b"
 GROQ_BASE_URL = "https://api.groq.com/openai/v1"
 
 
@@ -115,12 +115,112 @@ def _ensure_initialized() -> None:
 # CHAT FUNCTION
 # ==========================================================
 
+# def generate_chat_response(
+#     system_prompt: str,
+#     user_prompt: str,
+# ) -> str:
+#     """
+#     Send system and user prompts to the Groq model.
+
+#     Parameters
+#     ----------
+#     system_prompt : str
+#         System-level instruction.
+
+#     user_prompt : str
+#         User message.
+
+#     Returns
+#     -------
+#     str
+#         Model-generated response.
+#     """
+
+#     # ------------------------------------------------------
+#     # Validate system prompt
+#     # ------------------------------------------------------
+
+#     if not isinstance(system_prompt, str):
+
+#         raise TypeError(
+#             "system_prompt must be a string."
+#         )
+
+#     system_prompt = system_prompt.strip()
+
+#     if not system_prompt:
+
+#         raise ValueError(
+#             "system_prompt cannot be empty."
+#         )
+
+#     # ------------------------------------------------------
+#     # Validate user prompt
+#     # ------------------------------------------------------
+
+#     if not isinstance(user_prompt, str):
+
+#         raise TypeError(
+#             "user_prompt must be a string."
+#         )
+
+#     user_prompt = user_prompt.strip()
+
+#     if not user_prompt:
+
+#         raise ValueError(
+#             "user_prompt cannot be empty."
+#         )
+
+#     # ------------------------------------------------------
+#     # Ensure client exists
+#     # ------------------------------------------------------
+
+#     _ensure_initialized()
+
+#     # ------------------------------------------------------
+#     # Call Groq
+#     # ------------------------------------------------------
+
+#     response = client.chat.completions.create(
+
+#         model=GROQ_MODEL_NAME,
+
+#         messages=[
+#             {
+#                 "role": "system",
+#                 "content": system_prompt,
+#             },
+#             {
+#                 "role": "user",
+#                 "content": user_prompt,
+#             },
+#         ],
+#     )
+
+#     # ------------------------------------------------------
+#     # Extract response
+#     # ------------------------------------------------------
+
+#     content = response.choices[0].message.content
+
+#     if content is None:
+
+#         raise RuntimeError(
+#             "Groq returned an empty response."
+#         )
+
+#     return content.strip()
+
+
+
 def generate_chat_response(
     system_prompt: str,
     user_prompt: str,
+    conversation_history: list[dict] = None,
 ) -> str:
     """
-    Send system and user prompts to the Groq model.
+    Send system, historical conversation turns, and user prompts to the Groq model.
 
     Parameters
     ----------
@@ -129,6 +229,10 @@ def generate_chat_response(
 
     user_prompt : str
         User message.
+
+    conversation_history : list of dict, optional
+        List of previous conversation messages, each represented as a dictionary.
+        Expected format: [{"role": "user"|"assistant", "content": "..."}]
 
     Returns
     -------
@@ -173,10 +277,51 @@ def generate_chat_response(
         )
 
     # ------------------------------------------------------
+    # Validate and clean conversation history
+    # ------------------------------------------------------
+
+    if conversation_history is not None:
+        if not isinstance(conversation_history, list):
+            raise TypeError(
+                "conversation_history must be a list of dictionaries."
+            )
+
+    # ------------------------------------------------------
     # Ensure client exists
     # ------------------------------------------------------
 
     _ensure_initialized()
+
+    # ------------------------------------------------------
+    # Construct the messages payload
+    # ------------------------------------------------------
+
+    messages = [
+        {
+            "role": "system",
+            "content": system_prompt,
+        }
+    ]
+
+    # Append historical messages if they exist
+    if conversation_history:
+        for message in conversation_history:
+            if not isinstance(message, dict) or "role" not in message or "content" not in message:
+                raise ValueError(
+                    "Each item in conversation_history must be a dictionary containing 'role' and 'content'."
+                )
+            messages.append({
+                "role": message["role"],
+                "content": message["content"]
+            })
+
+    # Append the current active user prompt at the end
+    messages.append(
+        {
+            "role": "user",
+            "content": user_prompt,
+        }
+    )
 
     # ------------------------------------------------------
     # Call Groq
@@ -185,17 +330,7 @@ def generate_chat_response(
     response = client.chat.completions.create(
 
         model=GROQ_MODEL_NAME,
-
-        messages=[
-            {
-                "role": "system",
-                "content": system_prompt,
-            },
-            {
-                "role": "user",
-                "content": user_prompt,
-            },
-        ],
+        messages=messages,
     )
 
     # ------------------------------------------------------
