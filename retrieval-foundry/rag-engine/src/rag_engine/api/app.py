@@ -353,6 +353,15 @@ class ChatRequest(BaseModel):
         description="User prompt sent to GPT-4o-mini.",
     )
 
+    conversation_history: List[Dict[str, str]] = Field(
+        default=[],
+        description=(
+            "Optional list of previous conversation messages, "
+            "each represented as a dictionary with 'role' and "
+            "'content' keys."
+        ),
+    )
+
 
 # ==========================================================
 # CHAT RESPONSE MODEL
@@ -370,6 +379,52 @@ class ChatResponse(BaseModel):
 # CHAT ENDPOINT
 # ==========================================================
 
+# @app.post(
+#     "/chat",
+#     response_model=ChatResponse,
+# )
+# def chat(
+#     request: ChatRequest,
+# ) -> ChatResponse:
+#     """
+#     Send system and user prompts to GPT-4o-mini.
+#     """
+
+#     try:
+
+#         response = generate_chat_response(
+#             system_prompt=request.system_prompt,
+#             user_prompt=request.user_prompt,
+#         )
+
+#     except ValueError as exc:
+
+#         raise HTTPException(
+#             status_code=400,
+#             detail=str(exc),
+#         ) from exc
+
+#     except (TypeError, RuntimeError) as exc:
+
+#         raise HTTPException(
+#             status_code=500,
+#             detail=str(exc),
+#         ) from exc
+
+#     except Exception as exc:
+
+#         raise HTTPException(
+#             status_code=500,
+#             detail=(
+#                 "Unexpected error while calling "
+#                 f"OpenAI: {exc}"
+#             ),
+#         ) from exc
+
+#     return ChatResponse(
+#         response=response,
+#     )
+
 @app.post(
     "/chat",
     response_model=ChatResponse,
@@ -386,6 +441,7 @@ def chat(
         response = generate_chat_response(
             system_prompt=request.system_prompt,
             user_prompt=request.user_prompt,
+            conversation_history=request.conversation_history if hasattr(request, "conversation_history") else None,
         )
 
     except ValueError as exc:
@@ -415,8 +471,6 @@ def chat(
     return ChatResponse(
         response=response,
     )
-
-
 
 
 # ==========================================================
