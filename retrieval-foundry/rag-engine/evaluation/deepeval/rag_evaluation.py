@@ -1,7 +1,14 @@
+```python
 """
 DeepEval RAG Evaluation
 
-python deepeval_rag_evaluation.py --input deepeval_input.json --output deepeval_results.xlsx
+Examples:
+
+Evaluate a specific item number:
+python deepeval_rag_evaluation.py --input deepeval_input.json --item 3 --output deepeval_results.xlsx
+
+Evaluate a specific user query:
+python deepeval_rag_evaluation.py --input deepeval_input.json --user-query "What policies are used to manage the technology environment?" --output deepeval_results.xlsx
 
 
 INPUT JSON FORMAT:
@@ -51,19 +58,40 @@ from deepeval.models import GeminiModel
 
 # Gemini model used ONLY as the DeepEval evaluator/judge.
 EVALUATOR_MODEL = "gemini-3.5-flash-lite"
+
+
 # ============================================================
-# RATE LIMIT HANDLING FOR FREE TIER (MAX RETRIES & THROTTLING)
+# RATE LIMIT HANDLING FOR FREE TIER
 # ============================================================
- # Fixes the 1.9s hard cancel timeout error
+
+# Fixes the 1.9s hard cancel timeout error
 os.environ["DEEPEVAL_PER_ATTEMPT_TIMEOUT_SECONDS_OVERRIDE"] = "60"
-os.environ["DEEPEVAL_RETRY_MAX_ATTEMPTS"] = "10"  # Auto-retry up to 10 times
-os.environ["DEEPEVAL_RETRY_CAP_SECONDS"] = "30"   # Maximum wait time per 429 bounce
+
+# Auto-retry up to 10 times
+os.environ["DEEPEVAL_RETRY_MAX_ATTEMPTS"] = "10"
+
+# Maximum wait time per 429 bounce
+os.environ["DEEPEVAL_RETRY_CAP_SECONDS"] = "30"
+
 
 # ============================================================
 # LOAD JSON
 # ============================================================
 
 def load_evaluation_data(json_path: str):
+    """
+    Load and validate the evaluation JSON file.
+
+    Expected format:
+        [
+            {
+                "user_query": "...",
+                "retrieved_chunks": [...],
+                "final_answer": "..."
+            },
+            ...
+        ]
+    """
 
     path = Path(json_path)
 
@@ -84,11 +112,87 @@ def load_evaluation_data(json_path: str):
 
 
 # ============================================================
+# SELECT RECORD
+# ============================================================
+
+def select_record(records, item=None, user_query=None):
+    """
+    Select exactly one evaluation record.
+
+    Selection can be performed using either:
+
+        --item N
+            Selects the Nth record using 1-based numbering.
+
+        --user-query "exact query"
+            Selects the record whose user_query exactly matches
+            the supplied query.
+
+    Exactly one of item or user_query must be supplied.
+    """
+
+    if item is not None and user_query is not None:
+        raise ValueError(
+            "Use either --item or --user-query, not both."
+        )
+
+    if item is None and user_query is None:
+        raise ValueError(
+            "You must specify either --item or --user-query."
+        )
+
+    # --------------------------------------------------------
+    # Selection by item number
+    # --------------------------------------------------------
+
+    if item is not None:
+
+        if item < 1:
+            raise ValueError(
+                "--item must be a positive integer starting from 1."
+            )
+
+        if item > len(records):
+            raise IndexError(
+                f"Item {item} does not exist. "
+                f"The JSON file contains {len(records)} records."
+            )
+
+        selected_record = records[item - 1]
+
+        print(
+            f"Selected item {item}/{len(records)}."
+        )
+
+        return selected_record
+
+    # --------------------------------------------------------
+    # Selection by user query
+    # --------------------------------------------------------
+
+    for index, record in enumerate(records, start=1):
+
+        if not isinstance(record, dict):
+            continue
+
+        if str(record.get("user_query", "")) == user_query:
+            print(
+                f"Selected item {index}/{len(records)} "
+                f"using user_query."
+            )
+
+            return record
+
+    raise ValueError(
+        "No record found with the specified user_query."
+    )
+
+
+# ============================================================
 # NORMALIZE RETRIEVED CHUNKS
 # ============================================================
 
 def normalize_retrieved_chunks(chunks):
-
     """
     Supports either:
 
@@ -141,7 +245,6 @@ def normalize_retrieved_chunks(chunks):
 # ============================================================
 
 def create_evaluator():
-
     """
     Gemini is used only as the LLM-as-a-judge.
 
@@ -186,7 +289,7 @@ def create_metrics(evaluator):
 # RUN EVALUATION
 # ============================================================
 
-def evaluate_records(records):
+def evaluate_record(record, item_number=None):
 
     evaluator = create_evaluator()
 
@@ -196,137 +299,141 @@ def evaluate_records(records):
         faithfulness_metric,
     ) = create_metrics(evaluator)
 
-    results = []
+    # --------------------------------------------------------
+    # Validate input
+    # --------------------------------------------------------
 
-    total = len(records)
+    required_fields = [
+        "user_query",
+        "retrieved_chunks",
+        "final_answer",
+    ]
 
-    for index, record in enumerate(records, start=1):
+    for field in required_fields:
 
+        if field not in record:
+            item_label = (
+                f"Item {item_number}"
+                if item_number is not None
+                else "Selected record"
+            )
+
+            raise ValueError(
+                f"{item_label} is missing "
+                f"required field: '{field}'"
+            )
+
+    user_query = str(
+        record["user_query"]
+    )
+
+    final_answer = str(
+        record["final_answer"]
+    )
+
+    retrieved_chunks = normalize_retrieved_chunks(
+        record["retrieved_chunks"]
+    )
+
+    # --------------------------------------------------------
+    # Display selected question
+    # --------------------------------------------------------
+
+    if item_number is not None:
         print(
-            f"\nEvaluating question {index}/{total}..."
+            f"\nEvaluating item {item_number}..."
         )
+    else:
+        print("\nEvaluating selected question...")
 
-        # ----------------------------------------------------
-        # Validate input
-        # ----------------------------------------------------
+    print(f"Question: {user_query}")
 
-        required_fields = [
-            "user_query",
-            "retrieved_chunks",
-            "final_answer",
-        ]
+    # --------------------------------------------------------
+    # Create DeepEval test case
+    # --------------------------------------------------------
 
-        for field in required_fields:
+    test_case = LLMTestCase(
+        input=user_query,
+        actual_output=final_answer,
+        retrieval_context=retrieved_chunks,
+    )
 
-            if field not in record:
-                raise ValueError(
-                    f"Question {index} is missing "
-                    f"required field: '{field}'"
-                )
+    # --------------------------------------------------------
+    # Answer Relevancy
+    # --------------------------------------------------------
 
-        user_query = str(
-            record["user_query"]
-        )
+    print("\nRunning Answer Relevancy...")
 
-        final_answer = str(
-            record["final_answer"]
-        )
+    answer_relevancy_metric.measure(
+        test_case
+    )
 
-        retrieved_chunks = normalize_retrieved_chunks(
-            record["retrieved_chunks"]
-        )
+    answer_relevancy_score = (
+        answer_relevancy_metric.score
+    )
 
-        # ----------------------------------------------------
-        # Create DeepEval test case
-        # ----------------------------------------------------
+    print(
+        f"  Answer Relevancy : "
+        f"{answer_relevancy_score:.4f}"
+    )
 
-        test_case = LLMTestCase(
-            input=user_query,
-            actual_output=final_answer,
-            retrieval_context=retrieved_chunks,
-        )
+    print("  Pacing metric execution (6s)...")
+    time.sleep(6)
 
-        # ----------------------------------------------------
-        # Answer Relevancy
-        # ----------------------------------------------------
+    # --------------------------------------------------------
+    # Contextual Relevancy
+    # --------------------------------------------------------
 
-        answer_relevancy_metric.measure(
-            test_case
-        )
+    print("\nRunning Contextual Relevancy...")
 
-        answer_relevancy_score = (
-            answer_relevancy_metric.score
-        )
+    contextual_relevancy_metric.measure(
+        test_case
+    )
 
-        print("  Pacing metric execution (6s)...")
-        time.sleep(6) # Prevent spiking the RPM sensor between metrics
+    contextual_relevancy_score = (
+        contextual_relevancy_metric.score
+    )
 
-        # ----------------------------------------------------
-        # Contextual Relevancy
-        # ----------------------------------------------------
+    print(
+        f"  Contextual Relevancy : "
+        f"{contextual_relevancy_score:.4f}"
+    )
 
-        contextual_relevancy_metric.measure(
-            test_case
-        )
+    print("  Pacing metric execution (6s)...")
+    time.sleep(6)
 
-        contextual_relevancy_score = (
-            contextual_relevancy_metric.score
-        )
+    # --------------------------------------------------------
+    # Faithfulness
+    # --------------------------------------------------------
 
-        print("  Pacing metric execution (6s)...")
-        time.sleep(6)
+    print("\nRunning Faithfulness...")
 
-        # ----------------------------------------------------
-        # Faithfulness
-        # ----------------------------------------------------
+    faithfulness_metric.measure(
+        test_case
+    )
 
-        faithfulness_metric.measure(
-            test_case
-        )
+    faithfulness_score = (
+        faithfulness_metric.score
+    )
 
-        faithfulness_score = (
-            faithfulness_metric.score
-        )
+    print(
+        f"  Faithfulness : "
+        f"{faithfulness_score:.4f}"
+    )
 
-        
+    # --------------------------------------------------------
+    # Store result
+    # --------------------------------------------------------
 
-        # ----------------------------------------------------
-        # Store result
-        # ----------------------------------------------------
+    result = {
+        "Question": user_query,
+        "Final Answer": final_answer,
+        "Answer Relevancy": answer_relevancy_score,
+        "Contextual Relevancy": contextual_relevancy_score,
+        "Faithfulness": faithfulness_score,
+    }
 
-        results.append(
-            {
-                "Question": user_query,
-                "Final Answer": final_answer,
-                "Answer Relevancy": answer_relevancy_score,
-                "Contextual Relevancy": contextual_relevancy_score,
-                "Faithfulness": faithfulness_score,
-            }
-        )
-
-        print(
-            f"  Answer Relevancy     : "
-            f"{answer_relevancy_score:.4f}"
-        )
-
-        print(
-            f"  Contextual Relevancy : "
-            f"{contextual_relevancy_score:.4f}"
-        )
-
-        print(
-            f"  Faithfulness         : "
-            f"{faithfulness_score:.4f}"
-        )
-
-        # ----------------------------------------------------
-        # Extended Reset Window between rows
-        # ----------------------------------------------------
-        if index < total:
-            print("Allowing the minute-rate window to reset. Sleeping for 20 seconds...")
-            time.sleep(20)
-
-    return results
+    return [result]
 
 
 # ============================================================
@@ -369,10 +476,14 @@ def main():
 
     parser = argparse.ArgumentParser(
         description=(
-            "Evaluate a RAG dataset using "
+            "Evaluate one selected RAG record using "
             "DeepEval and Gemini."
         )
     )
+
+    # --------------------------------------------------------
+    # Input JSON
+    # --------------------------------------------------------
 
     parser.add_argument(
         "--input",
@@ -380,13 +491,45 @@ def main():
         help="Path to input JSON file.",
     )
 
+    # --------------------------------------------------------
+    # Output Excel
+    # --------------------------------------------------------
+
     parser.add_argument(
         "--output",
         default="deepeval_results.xlsx",
         help="Path to output Excel file.",
     )
 
+    # --------------------------------------------------------
+    # Selection by item number
+    # --------------------------------------------------------
+
+    parser.add_argument(
+        "--item",
+        type=int,
+        help=(
+            "1-based item number to evaluate. "
+            "Example: --item 3"
+        ),
+    )
+
+    # --------------------------------------------------------
+    # Selection by user query
+    # --------------------------------------------------------
+
+    parser.add_argument(
+        "--user-query",
+        help=(
+            "Exact user_query value of the record to evaluate."
+        ),
+    )
+
     args = parser.parse_args()
+
+    # --------------------------------------------------------
+    # Load JSON
+    # --------------------------------------------------------
 
     records = load_evaluation_data(
         args.input
@@ -396,9 +539,40 @@ def main():
         f"Loaded {len(records)} evaluation questions."
     )
 
-    results = evaluate_records(
-        records
+    # --------------------------------------------------------
+    # Select exactly one record
+    # --------------------------------------------------------
+
+    selected_record = select_record(
+        records=records,
+        item=args.item,
+        user_query=args.user_query,
     )
+
+    # Determine item number for display
+    selected_item_number = None
+
+    if args.item is not None:
+        selected_item_number = args.item
+
+    else:
+        for index, record in enumerate(records, start=1):
+            if record is selected_record:
+                selected_item_number = index
+                break
+
+    # --------------------------------------------------------
+    # Evaluate selected record only
+    # --------------------------------------------------------
+
+    results = evaluate_record(
+        record=selected_record,
+        item_number=selected_item_number,
+    )
+
+    # --------------------------------------------------------
+    # Save result
+    # --------------------------------------------------------
 
     save_results(
         results,
@@ -406,5 +580,10 @@ def main():
     )
 
 
+# ============================================================
+# ENTRY POINT
+# ============================================================
+
 if __name__ == "__main__":
     main()
+```
