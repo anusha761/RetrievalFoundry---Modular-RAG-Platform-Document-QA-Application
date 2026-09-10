@@ -9,7 +9,7 @@ The repository contains two cooperating systems:
 - **[RAG Engine](retrieval-foundry/rag-engine/README.md):** ingestion, indexing, retrieval, reranking, table resolution, generation APIs, and evaluation.
 - **[Document QA Application](retrieval-foundry/rag-app/rag-app/README.md):** Streamlit chat experience and FastAPI orchestration for multi-document conversations, citations, persistence, and regeneration.
 
-[Demo Video](https://drive.google.com/file/d/1iQsjGUUFfN20IjyZnHPhNwZpCf1MlMsF/view?usp=drive_link)
+**Demo Video:** [View the demo](https://drive.google.com/file/d/1iQsjGUUFfN20IjyZnHPhNwZpCf1MlMsF/view?usp=drive_link)
 
 ## Why This Project
 
