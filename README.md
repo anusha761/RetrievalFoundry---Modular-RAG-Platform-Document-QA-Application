@@ -179,6 +179,7 @@ The application uses Groq for answer generation, while Gemini is used independen
 | Sparse retrieval | BM25 |
 | Reranking | Cross-encoder |
 | Generation API | Groq |
+| Answer Generation | GPT-OSS 120B |
 | Application persistence | MongoDB |
 | Evaluation | DeepEval + Gemini |
 
@@ -202,7 +203,7 @@ retrieval-foundry/
         +-- README.md                 # Document QA application documentation
 ```
 
-## Explore the Project
-
-- **[Explore the RAG engine](rag-engine/README.md)** for ingestion, chunking, Qdrant indexing, hybrid retrieval, reranking, table resolution, APIs, and evaluation.
-- **[Explore the Document QA application](rag-app/rag-app/README.md)** for chat orchestration, batch processing, conversation history, citations, regeneration, configuration, and setup.
+## Future Scope
+- Multi-document latency optimization through caching and adaptive reranking
+- Observability for token usage, latency, and inference cost.
+- Expansion of automated evaluation and regression benchmarking for retrieval and answer quality.
