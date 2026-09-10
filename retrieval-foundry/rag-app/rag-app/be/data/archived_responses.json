@@ -1,0 +1,28 @@
+[
+  {
+    "response_id": "50dfc485-ef30-4ddb-a652-f2138b048eb0",
+    "regeneration_version": 1,
+    "archived_date": "2026-09-10 06:29:18",
+    "original_summary": "1. Summit_CLO_2026_2_document.pdf\n - Granite Peak Capital Management – collateral manager and investment manager.\n - Wellsbridge Trust Company, N.A. – trustee.\n - Wellsbridge Collateral Services, LLC – collateral administrator.\n - First Meridian Bank, N.A. – calculation agent and paying agent.\n - Crestline Securities LLC – placement agent and arranger.\n - S&P Global Ratings – rating agency.\n - Moody's Ratings – rating agency.\n - Hawthorne & Vale LLP – legal counsel.\n - BlueRock Custody Services, Inc. – custodian.",
+    "original_citations": [
+      {
+        "file_name": "Summit_CLO_2026_2_document.pdf",
+        "file_id": "Summit_CLO_2026_2_document",
+        "page_number": 1,
+        "excerpt": "## 1. Parties and Governance\n\n### Transaction parties\n\nGranite Peak Capital Management acts as collateral manager and investment manager. It is responsible for sourcing, selecting, monitoring, purchasing, selling and substituting collateral within the investment guidelines. The manager's authority is broad enough to permit active portfolio management but remains subject to eligibility criteria, concentration limitations, collateral-quality tests and coverage tests.\n\nWellsbridge Trust Company, N.A. acts as trustee. The trustee maintains transaction accounts, applies available proceeds under the applicable waterfalls, distributes payments and performs other administrative and fiduciary functions.\n\n### SUMMIT CLO 2026-2\n\nWellsbridge Collateral Services, LLC acts as collateral administrator and supports collateral-level data processing, reconciliation and investor reporting. First Meridian Bank, N.A. acts as calculation agent and paying agent. Crestline Securities LLC acts as placement agent and arranger.\n\nThe fictional transaction is intended to receive ratings from S&amp;P Global Ratings and Moody's Ratings. Legal counsel is Hawthorne &amp; Vale LLP . BlueRock Custody Services, Inc. serves as custodian.\n\nGranite Peak Capital Management handles portfolio management, trading, reinvestment and monitoring; Wellsbridge Trust Company, N.A. serves as trustee and handles account and payment administration; Wellsbridge Collateral Services, LLC provides collateral administration and reporting support; First Meridian Bank, N.A. acts as calculation and paying agent; BlueRock Custody Services, Inc. provides custody of specified assets and documents; Crestline Securities LLC serves as placement agent and arranger; Hawthorne &amp; Vale LLP provides transaction legal counsel; and S&amp;P Global Ratings and Moody's Ratings serve as rating agencies.",
+        "section_path": [
+          "1. Parties and Governance"
+        ]
+      }
+    ],
+    "original_token_cost": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_cost": 0.0
+    },
+    "original_prompt_question": "Mention the transaction parties.",
+    "conversation_id": "03783b51-8f61-4e6e-b13a-8fe5a7955b1e",
+    "question_id": "db827236-43b9-4a8c-ac68-af418cbf60f4",
+    "created_date": "2026-09-10 06:27:54"
+  }
+]
