@@ -1,4 +1,5 @@
 """Application configuration loaded from .env and prompt modules."""
+import os
 from importlib import import_module
 from pydantic_settings import BaseSettings
 
@@ -35,8 +36,8 @@ class Settings(BaseSettings):
     DOMAIN_KNOWLEDGE: str = "This system handles financial documents including quarterly reports, investment memoranda, and fund performance summaries. Key entities include fund names, NAV values, IRR percentages, commitment amounts, and vintage years. Documents typically follow fiscal year reporting cycles (Q1-Q4) and may reference GAAP or IFRS accounting standards."
 
     # MongoDB
-    MONGODB_USERNAME: str = "chaudhurianusha1_db_user"
-    MONGODB_PASSWORD: str = "SYbL3fSkS0Z3HGkv"
+    MONGODB_USERNAME: str = os.environ["MONGODB_USERNAME"]
+    MONGODB_PASSWORD: str = os.environ["MONGODB_PASSWORD"]
     MONGODB_URI: str = "mongodb+srv://chaudhurianusha1_db_user:SYbL3fSkS0Z3HGkv@docchatdbcluster.0xeg3bw.mongodb.net"
     MONGODB_COLLECTION_CONVERSATIONS: str = "conversations"
     MONGODB_COLLECTION_RESPONSES: str = "responses"
