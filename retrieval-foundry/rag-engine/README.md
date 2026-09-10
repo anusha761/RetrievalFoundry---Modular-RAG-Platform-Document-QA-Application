@@ -220,6 +220,8 @@ The RAG engine exposes its functionality through FastAPI. The API layer is inten
 
 ### Retrieval API
 
+#### `POST /api/v1/retrieve`
+
 The retrieval endpoint exposes the complete retrieval pipeline:
 
 ```text
@@ -239,6 +241,8 @@ Ranked Retrieval Context
 The retrieval functionality can therefore be consumed independently by other applications.
 
 ### LLM Chat API
+
+#### `POST /api/v1/chat`
 
 The LLM chat functionality is implemented separately from retrieval.
 
