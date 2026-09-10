@@ -17,7 +17,7 @@ async def retrieve_chunks(
 
     Args:
         vector_store: The vector store to query.
-        retriever_query: The refined query (keywords joined as string).
+        retriever_query: The user query.
         file_ids: List of file IDs to retrieve from.
         top_k: Number of chunks per file.
 
