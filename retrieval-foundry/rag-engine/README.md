@@ -426,6 +426,14 @@ This generates the retrieval-ready chunk data.
 
 For local Qdrant:
 
+Start Qdrant
+
+```bash
+qdrant.exe
+```
+
+Run ingestion script
+
 ```bash
 python src/rag_engine/ingestion/qdrant_ingestion_local.py
 ```
@@ -437,7 +445,13 @@ python src/rag_engine/ingestion/qdrant_ingestion.py
 ```
 ## Running the FastAPI Service
 
-Start the API using Uvicorn:
+Method 1: Start the API:
+
+```bash
+python app.py
+```
+
+Method 2: Start the API using Uvicorn:
 
 ```bash
 uvicorn rag_engine.api.app:app --reload
