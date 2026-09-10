@@ -38,7 +38,7 @@ class RecordPromptRequest(BaseModel):
 
 class RetrieveRequest(BaseModel):
     """Request body for pipeline/retrieve."""
-    retriever_query: str = Field(..., description="Keywords or refined query for vector search")
+    retriever_query: str = Field(..., description="user query")
     file_ids: List[str]
 
 
