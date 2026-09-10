@@ -6,14 +6,14 @@ RetrievalFoundry is a modular, document-grounded question-answering platform for
 
 The repository contains two cooperating systems:
 
-- **[RAG Engine](rag-engine/README.md):** ingestion, indexing, retrieval, reranking, table resolution, generation APIs, and evaluation.
-- **[Document QA Application](rag-app/rag-app/README.md):** Streamlit chat experience and FastAPI orchestration for multi-document conversations, citations, persistence, and regeneration.
+- **[RAG Engine](retrieval-foundry/rag-engine/README.md):** ingestion, indexing, retrieval, reranking, table resolution, generation APIs, and evaluation.
+- **[Document QA Application](retrieval-foundry/rag-app/rag-app/README.md):** Streamlit chat experience and FastAPI orchestration for multi-document conversations, citations, persistence, and regeneration.
 
 ## Why This Project
 
 RetrievalFoundry goes beyond a basic vector-search chatbot by treating document structure, provenance, tables, retrieval quality, and evaluation as first-class concerns.
 
-- **Structure-aware ingestion:** PDFs are processed with Docling to preserve headings, sections, page information, and document structure.
+- **Structure-aware ingestion:** PDFs are processed with Docling (docling-hierarchical-pdf) to preserve headings, sections, page information, and document structure.
 - **Hierarchical chunking:** Chunks follow document sections where possible and retain document, page, section, and table metadata.
 - **Hybrid retrieval:** Dense semantic search is combined with sparse BM25 retrieval for both conceptual queries and exact financial terminology.
 - **Multi-stage ranking:** Reciprocal Rank Fusion combines retrieval signals before cross-encoder reranking improves candidate precision.
