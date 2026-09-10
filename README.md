@@ -2,7 +2,7 @@
 
 ## An End-to-End Document Intelligence Platform
 
-RetrievalFoundry is a modular, document-grounded question-answering platform for structured financial documents. It combines structure-aware ingestion, hybrid retrieval, reranking, table preservation, provenance tracking, and independent evaluation with a multi-document chat application that supports citations, conversation history, and answer regeneration.
+RetrievalFoundry is a modular, document-grounded question-answering platform for PDF documents. It combines structure-aware ingestion, hybrid retrieval, reranking, table preservation, provenance tracking, and independent evaluation with a multi-document chat application that supports citations, conversation history, and answer regeneration.
 
 The repository contains two cooperating systems:
 
