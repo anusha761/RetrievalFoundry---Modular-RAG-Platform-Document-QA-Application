@@ -26,7 +26,7 @@ app = FastAPI(
     title="Document RAG Chat API",
     description=(
         "A multi-document RAG chat API with adaptive pipeline processing, "
-        "query refinement, batch summarization, citation generation, "
+        "batch summarization, citation generation, "
         "and conversation history."
     ),
     version="1.0.0"
