@@ -33,12 +33,11 @@ async def run_full_pipeline(
 
     Pipeline Steps:
         1. Record prompt (create conversation if needed, get question_id)
-        2. Refine query (LLM keyword extraction)
-        3. Retrieve chunks from vector store (per file)
-        4. Tag chunks with numeric chunk_ids
-        5. Summarize (single-pass or batch based on file count threshold)
-        6. Map chunk_ids back and generate citations
-        7. Persist response to storage and update conversation pointer
+        2. Retrieve chunks from vector store (per file)
+        3. Tag chunks with numeric chunk_ids
+        4. Summarize (single-pass or batch based on file count threshold)
+        5. Map chunk_ids back and generate citations
+        6. Persist response to storage and update conversation pointer
 
     Args:
         request: The incoming chat request.
@@ -379,7 +378,7 @@ async def regenerate_response(
     ChatGPT-style regeneration:
     1. Find the original response by question_id
     2. Archive the old response (for audit trail)
-    3. Re-run the pipeline (refine → retrieve → summarize)
+    3. Re-run the pipeline (retrieve → summarize)
     4. Update the existing record in-place (same IDs, new content)
     5. Follow-up questions will naturally use the regenerated answer as history
 
